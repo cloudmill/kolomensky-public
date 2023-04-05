@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Коломенский</title>
-		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
 		<script defer="defer" src="assets/vendor.js"></script>
 		<script defer="defer" src="assets/app.js"></script>
 		<link href="styles.css" rel="stylesheet">
@@ -18,8 +18,8 @@
 					<li><a href="main">Главная</a></li>
 					<li><a href="catalog">Каталог</a></li>
 					<li><a href="card">Карточка</a></li>
-					<li><a href="docs">Карточка</a></li>
-					<li><a href="info">Карточка</a></li>
+					<li><a href="docs">Учредительные документы</a></li>
+					<li><a href="info">Раскрытие информации</a></li>
 					<li><a href="natural">Натурально и вкусно</a></li>
 					<li><a href="natural-detail">Натурально и вкусно деталка</a></li>
 					<li><a href="events">Эвенты</a></li>
@@ -45,7 +45,9 @@
 								</div>
 							</div>
 							<div class="form-item">
-								<div class="input-wrapper"><textarea class="textarea" data-input="" placeholder="Ваш вопрос"></textarea></div>
+								<div class="input-wrapper" data-input-parent="">
+									<div class="input-wrapper__placeholder">Ваш вопрос</div><textarea class="textarea" data-input="" placeholder="Ваш вопрос"></textarea>
+								</div>
 							</div>
 							<div class="form-modal__inner">
 								<div class="checkbox"><label class="checkbox__label"><input class="checkbox__input" type="checkbox" required="required" />

@@ -4,7 +4,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Коломенский</title>
-		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
 		<script defer="defer" src="assets/vendor.js"></script>
 		<script defer="defer" src="assets/app.js"></script>
 		<link href="styles.css" rel="stylesheet">
@@ -31,7 +31,11 @@
 								<path fill-rule="evenodd" clip-rule="evenodd" d="M16.0755 6.07813L17.254 7.25664L9.99811 14.5126L2.74219 7.25664L3.9207 6.07812L9.99811 12.1555L16.0755 6.07813Z" fill="#2D2C29"></path>
 							</svg></a><a class="header-nav__item" href=""><span>Партнерам и бизнесу</span><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<path fill-rule="evenodd" clip-rule="evenodd" d="M16.0755 6.07813L17.254 7.25664L9.99811 14.5126L2.74219 7.25664L3.9207 6.07812L9.99811 12.1555L16.0755 6.07813Z" fill="#2D2C29"></path>
-							</svg></a><a class="header-nav__item" href=""><span>Панорама 360</span></a></nav>
+							</svg></a><a class="header-nav__item" href=""><span>Панорама 360</span></a></nav><button class="mob-menu"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<line x1="2" y1="6.25" x2="22" y2="6.25" stroke="#2D2C29" stroke-width="1.5"></line>
+							<line x1="2" y1="11.25" x2="22" y2="11.25" stroke="#2D2C29" stroke-width="1.5"></line>
+							<line x1="2" y1="16.25" x2="22" y2="16.25" stroke="#2D2C29" stroke-width="1.5"></line>
+						</svg></button>
 				</div>
 			</header>
 			<main class="main">
@@ -42,11 +46,11 @@
 								<ul class="breadcrumbs__list">
 									<li class="breadcrumbs__item"><a class="breadcrumbs__link" href="#">Главная</a></li>
 									<li class="breadcrumbs__item">
-										<div class="breadcrumbs__text">Натуально и вкусно</div>
+										<div class="breadcrumbs__text">Натурально и вкусно</div>
 									</li>
 								</ul>
 							</div>
-							<h1 class="section__title">Натуально и вкусно</h1>
+							<h1 class="section__title">Натурально и вкусно</h1>
 							<div class="section__inner">
 								<div class="natural-page__grid">
 									<div class="natural-page__item big"><a class="content-card" href="#">
@@ -292,7 +296,9 @@
 								</div>
 							</div>
 							<div class="form-item">
-								<div class="input-wrapper"><textarea class="textarea" data-input="" placeholder="Ваш вопрос"></textarea></div>
+								<div class="input-wrapper" data-input-parent="">
+									<div class="input-wrapper__placeholder">Ваш вопрос</div><textarea class="textarea" data-input="" placeholder="Ваш вопрос"></textarea>
+								</div>
 							</div>
 							<div class="form-modal__inner">
 								<div class="checkbox"><label class="checkbox__label"><input class="checkbox__input" type="checkbox" required="required" />
