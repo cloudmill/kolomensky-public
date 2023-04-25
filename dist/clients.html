@@ -167,7 +167,7 @@
 												</a></div>
 											<div class="clients-page__docs-col">
 												<div class="clients-page__docs-text">
-													<p>Мы обеспечиваем поставки продукции в 12000 магазинов ежедневно в любое время суток, а также по запросу можем разработать и выпустить продукцию под вашей маркой.</p>
+													<p>Мы обеспечиваем поставки продукции в 12000 магазинов ежедневно в любое время суток, а также по запросу можем разработать и выпустить&nbsp;продукцию под вашей маркой.</p>
 													<p>Для ежедневной непрерывной клиентской отгрузки используется свой распределительный центр.</p>
 												</div>
 											</div>
@@ -274,9 +274,9 @@
 									<div class="section section--regular">
 										<div class="map" data-real-tabs="">
 											<div class="map__content">
-												<div class="map__title section__heading">География поставок&nbsp;<br />продукции</div>
+												<div class="map__title section__heading">География поставок&nbsp;<br>продукции</div>
 												<div class="map__tabs">
-													<div class="tabs">
+													<div class="tabs tabs--scroll">
 														<div class="tabs__item active" data-tabs-item="">Свежий хлеб</div>
 														<div class="tabs__item" data-tabs-item="">Кондитерские изделия</div>
 														<div class="tabs__item" data-tabs-item="">Замороженная продукция</div>
@@ -286,17 +286,17 @@
 											<div class="map__container">
 												<div class="map__block active" data-tabs-block="" data-pin-container="">
 													<picture class="picture map__img" data-pin-image="">
-														<source srcset="assets/images/map-1.webp" type="image/webp" /><img class="picture__img" src="assets/images/map-1.jpeg" alt="" />
+														<source srcset="assets/images/map-1.webp" type="image/webp"><img class="picture__img" src="assets/images/map-1.jpeg" alt="">
 													</picture>
 												</div>
 												<div class="map__block" data-tabs-block="" data-pin-container="">
 													<picture class="picture map__img" data-pin-image="">
-														<source srcset="assets/images/map-2.webp" type="image/webp" /><img class="picture__img" src="assets/images/map-2.jpeg" alt="" />
+														<source srcset="assets/images/map-2.webp" type="image/webp"><img class="picture__img" src="assets/images/map-2.jpeg" alt="">
 													</picture>
 												</div>
 												<div class="map__block" data-tabs-block="" data-pin-container="">
 													<picture class="picture map__img" data-pin-image="">
-														<source srcset="assets/images/map-3.webp" type="image/webp" /><img class="picture__img" src="assets/images/map-3.jpeg" alt="" />
+														<source srcset="assets/images/map-3.webp" type="image/webp"><img class="picture__img" src="assets/images/map-3.jpeg" alt="">
 													</picture>
 												</div>
 												<div class="map__icon"><svg class="map__svg" width="97" height="97" viewBox="0 0 97 97" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -450,10 +450,10 @@
 									</div>
 									<div class="section section--regular">
 										<h3 class="section__heading">Задать вопрос или оставить заявку<br>на сотрудничество</h3>
-										<form class="clients-page__form" action="/">
+										<form class="clients-page__form" action="/" data-form="" data-form-id="contact">
 											<div class="clients-page__form-grid">
 												<div class="select-wrapper">
-													<div class="select"><select class="select__select" data-select-placeholder="Направленность компании" style="width: 100%">
+													<div class="select" id="company"><select class="select__select" data-select-placeholder="Направленность компании" style="width: 100%" required data-parsley-errors-container="#company" data-parsley-class-handler="#company">
 															<option value="" disabled="disabled" selected="selected"></option>
 															<option value="Сети">Сети</option>
 															<option value="HoReCa">HoReCa</option>
@@ -480,7 +480,7 @@
 											</div>
 											<div class="clients-page__form-item">
 												<div class="select-wrapper">
-													<div class="select"><select class="select__select" data-select-placeholder="Тип доставки" style="width: 100%">
+													<div class="select" id="type"><select class="select__select" data-select-placeholder="Тип доставки" style="width: 100%" required data-parsley-errors-container="#type" data-parsley-class-handler="#type">
 															<option value="" disabled="disabled" selected="selected"></option>
 															<option value="Самовывоз">Самовывоз</option>
 															<option value="Доставка в торговую точку">Доставка в торговую точку</option>
@@ -529,6 +529,15 @@
 							</div>
 						</div>
 					</section>
+				</div>
+				<div class="response-modal" data-response="contact">
+					<div class="response-modal__container">
+						<div class="response-modal__title">Сообщение отправлено</div>
+						<p class="response-modal__text">Мы получили ваше сообщение и ответим, как только сможем.</p>
+						<div class="response-modal__btn"><button class="button" data-fancybox-close="">
+								<div class="button__text">Закрыть</div>
+							</button></div>
+					</div>
 				</div>
 				<div class="form-modal" data-fancy-modal="ask-director">
 					<div class="form-modal__container">
