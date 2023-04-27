@@ -16,7 +16,7 @@
 			<header class="header">
 				<div class="container header__container">
 					<div class="header__col"><img class="header__logo" src="assets/images/svg/logo.svg" alt="" /></div>
-					<div class="header__col"><button class="header__catalog-btn"><span>Каталог продукции</span><svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<div class="header__col"><button class="header__catalog-btn" data-fancy-button="catalog-menu"><span>Каталог продукции</span><svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<circle cx="2" cy="2" r="2" fill="#2D2C29"></circle>
 								<circle cx="2" cy="12" r="2" fill="#2D2C29"></circle>
 								<circle cx="12" cy="2" r="2" fill="#2D2C29"></circle>
@@ -25,13 +25,13 @@
 					<div class="header__col"><button class="header__search-btn"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<path fill-rule="evenodd" clip-rule="evenodd" d="M10 18C5.58172 18 2 14.4183 2 10C2 5.58172 5.58172 2 10 2C14.4183 2 18 5.58172 18 10C18 11.8487 17.3729 13.551 16.3199 14.9056L21.7071 20.2929L20.2929 21.7071L14.9056 16.3199C13.551 17.3729 11.8487 18 10 18ZM16 10C16 13.3137 13.3137 16 10 16C6.68629 16 4 13.3137 4 10C4 6.68629 6.68629 4 10 4C13.3137 4 16 6.68629 16 10Z" fill="#2D2C29"></path>
 							</svg></button></div>
-					<nav class="header__col header-nav"><a class="header-nav__item" href=""><span>О холдинге</span><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+					<nav class="header__col header-nav"><button class="header-nav__item" data-fancy-button="holding-menu"><span>О холдинге</span><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<path fill-rule="evenodd" clip-rule="evenodd" d="M16.0755 6.07813L17.254 7.25664L9.99811 14.5126L2.74219 7.25664L3.9207 6.07812L9.99811 12.1555L16.0755 6.07813Z" fill="#2D2C29"></path>
-							</svg></a><a class="header-nav__item" href=""><span>Покупателю</span><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+							</svg></button><button class="header-nav__item" data-fancy-button="clients-menu"><span>Покупателю</span><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<path fill-rule="evenodd" clip-rule="evenodd" d="M16.0755 6.07813L17.254 7.25664L9.99811 14.5126L2.74219 7.25664L3.9207 6.07812L9.99811 12.1555L16.0755 6.07813Z" fill="#2D2C29"></path>
-							</svg></a><a class="header-nav__item" href=""><span>Партнерам и бизнесу</span><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+							</svg></button><button class="header-nav__item" data-fancy-button="partners-menu"><span>Партнерам и бизнесу</span><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
 								<path fill-rule="evenodd" clip-rule="evenodd" d="M16.0755 6.07813L17.254 7.25664L9.99811 14.5126L2.74219 7.25664L3.9207 6.07812L9.99811 12.1555L16.0755 6.07813Z" fill="#2D2C29"></path>
-							</svg></a><a class="header-nav__item" href=""><span>Панорама 360</span></a></nav><button class="mob-menu"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+							</svg></button><a class="header-nav__item" href=""><span>Панорама 360</span></a></nav><button class="mob-menu"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
 							<line x1="2" y1="6.25" x2="22" y2="6.25" stroke="#2D2C29" stroke-width="1.5"></line>
 							<line x1="2" y1="11.25" x2="22" y2="11.25" stroke="#2D2C29" stroke-width="1.5"></line>
 							<line x1="2" y1="16.25" x2="22" y2="16.25" stroke="#2D2C29" stroke-width="1.5"></line>
@@ -523,6 +523,58 @@
 					</div>
 				</div>
 			</footer>
+		</div>
+		<div class="modals">
+			<div class="catalog-menu" data-fancy-modal="catalog-menu">
+				<div class="catalog-menu__inner">
+					<ul class="catalog-menu__col">
+						<li class="catalog-menu__item"><a href="">Свежий хлеб</a></li>
+						<li class="catalog-menu__item"><a href="">Черный хлеб</a></li>
+						<li class="catalog-menu__item"><a href="">Белый хлеб</a></li>
+						<li class="catalog-menu__item"><a href="">Батоны</a></li>
+						<li class="catalog-menu__item"><a href="">Сдоба</a></li>
+					</ul>
+					<ul class="catalog-menu__col">
+						<li class="catalog-menu__item"><a href="">Кондитерские изделия</a></li>
+						<li class="catalog-menu__item"><a href="">Вафли</a></li>
+						<li class="catalog-menu__item"><a href="">Печенье</a></li>
+						<li class="catalog-menu__item"><a href="">Вафельные трубочки</a></li>
+						<li class="catalog-menu__item"><a href="">Вафельный батончик</a></li>
+						<li class="catalog-menu__item"><a href="">Зефир</a></li>
+						<li class="catalog-menu__item"><a href="">Торты</a></li>
+						<li class="catalog-menu__item"><a href="">Конфеты</a></li>
+					</ul>
+					<ul class="catalog-menu__col">
+						<li class="catalog-menu__item"><a href="">Замороженная продукция</a></li>
+						<li class="catalog-menu__item"><a href="">Вафли</a></li>
+						<li class="catalog-menu__item"><a href="">Печенье</a></li>
+						<li class="catalog-menu__item"><a href="">Вафельные трубочки</a></li>
+						<li class="catalog-menu__item"><a href="">Вафельный батончик</a></li>
+						<li class="catalog-menu__item"><a href="">Печенье</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="holding-menu" data-fancy-modal="holding-menu">
+				<ul class="holding-menu__inner">
+					<li class="holding-menu__item"><a href="">БКХ «Коломенский»</a></li>
+					<li class="holding-menu__item"><a href="">События</a></li>
+					<li class="holding-menu__item"><a href="">Учредительные документы</a></li>
+					<li class="holding-menu__item"><a href="">Раскрытие информации</a></li>
+					<li class="holding-menu__item"><a href="">Контакты</a></li>
+				</ul>
+			</div>
+			<div class="holding-menu" data-fancy-modal="clients-menu">
+				<ul class="holding-menu__inner">
+					<li class="holding-menu__item"><a href="">Где купить</a></li>
+					<li class="holding-menu__item"><a href="">Натурально и вкусно</a></li>
+				</ul>
+			</div>
+			<div class="holding-menu" data-fancy-modal="partners-menu">
+				<ul class="holding-menu__inner">
+					<li class="holding-menu__item"><a href="">Клиентам</a></li>
+					<li class="holding-menu__item"><a href="">Поставщикам</a></li>
+				</ul>
+			</div>
 		</div>
 	</body>
 
