@@ -46,199 +46,175 @@
 				<div class="buy-page">
 					<section class="section section--first">
 						<div class="container">
-							<div class="section__row">
-								<div class="section__col">
-									<div class="nav">
-										<div class="nav__heading">О холдинге</div>
-										<ul class="nav__list">
-											<li class="nav__item">
-												<div class="nav__link active">БКХ Коломенский</div>
-											</li>
-											<li class="nav__item"><a class="nav__link" href="#">События</a></li>
-											<li class="nav__item"><a class="nav__link" href="#">Учредительные документы</a></li>
-											<li class="nav__item"><a class="nav__link" href="#">Раскрытие информации</a></li>
-											<li class="nav__item"><a class="nav__link" href="#">Контакты</a></li>
+							<div class="breadcrumbs">
+								<ul class="breadcrumbs__list">
+									<li class="breadcrumbs__item"><a class="breadcrumbs__link" href="#">Главная</a></li>
+									<li class="breadcrumbs__item">
+										<div class="breadcrumbs__text">Где купить</div>
+									</li>
+								</ul>
+							</div>
+							<h1 class="section__title">Где купить</h1>
+							<p class="buy-page__text">Покупая продукцию БКХ Коломенский, Вы приобретаете качественный товар известного московского предприятия, занимающего лидирующие позиции по производству хлебобулочных и кондитерских изделий.</p>
+							<div class="buy-page__offset">
+								<h3 class="buy-page__heading section__heading">Найти на карте</h3>
+								<div class="buy-page__container">
+									<div class="buy-page__stores">
+										<ul class="buy-page__stores-list">
+											<li class="buy-page__stores-item" data-map-search="www.pyaterochka.ru">Пятерочка</li>
+											<li class="buy-page__stores-item" data-map-search="https://dixy.ru/">Дикси</li>
+											<li class="buy-page__stores-item" data-map-search="https://vkusvill.ru/">ВкусВилл</li>
+											<li class="buy-page__stores-item" data-map-search="https://magnit.ru/">Магнит</li>
+											<li class="buy-page__stores-item" data-map-search="https://www.perekrestok.ru/">Перекресток</li>
+											<li class="buy-page__stores-item" data-map-search="https://av.ru/">Азбука Вкуса</li>
+											<li class="buy-page__stores-item" data-map-search="https://lenta.com/">Лента</li>
+											<li class="buy-page__stores-item" data-map-search="https://www.auchan.ru/">Ашан</li>
+											<li class="buy-page__stores-item" data-map-search="www.pyaterochka.ru">Пятерочка</li>
+											<li class="buy-page__stores-item" data-map-search="https://dixy.ru/">Дикси</li>
+											<li class="buy-page__stores-item" data-map-search="https://vkusvill.ru/">ВкусВилл</li>
 										</ul>
 									</div>
+									<div class="buy-page__map" id="map"></div>
 								</div>
-								<div class="section__col">
-									<div class="section">
-										<div class="breadcrumbs">
-											<ul class="breadcrumbs__list">
-												<li class="breadcrumbs__item"><a class="breadcrumbs__link" href="#">Главная</a></li>
-												<li class="breadcrumbs__item"><a class="breadcrumbs__link" href="#">О холдинге</a></li>
-												<li class="breadcrumbs__item">
-													<div class="breadcrumbs__text">Где купить</div>
-												</li>
-											</ul>
+							</div>
+							<div class="section section--regular">
+								<h3 class="buy-page__heading section__heading">Найти в интернет-магазинах</h3>
+								<div class="buy-page__grid"><a class="store" href="#" target="_blank">
+										<div class="store__container">
+											<picture class="picture">
+												<source srcset="assets/images/magnit.webp" type="image/webp" /><img class="picture__img" src="assets/images/magnit.jpeg" alt="" />
+											</picture>
 										</div>
-										<h1 class="section__title">Где купить</h1>
-										<p class="buy-page__text">Покупая продукцию БКХ Коломенский, Вы приобретаете качественный товар известного московского предприятия, занимающего лидирующие позиции по производству хлебобулочных и кондитерских изделий.</p>
-										<div class="buy-page__offset">
-											<h3 class="buy-page__heading section__heading">Найти на карте</h3>
-											<div class="buy-page__container">
-												<div class="buy-page__stores">
-													<ul class="buy-page__stores-list">
-														<li class="buy-page__stores-item" data-map-search="www.pyaterochka.ru">Пятерочка</li>
-														<li class="buy-page__stores-item" data-map-search="https://dixy.ru/">Дикси</li>
-														<li class="buy-page__stores-item" data-map-search="https://vkusvill.ru/">ВкусВилл</li>
-														<li class="buy-page__stores-item" data-map-search="https://magnit.ru/">Магнит</li>
-														<li class="buy-page__stores-item" data-map-search="https://www.perekrestok.ru/">Перекресток</li>
-														<li class="buy-page__stores-item" data-map-search="https://av.ru/">Азбука Вкуса</li>
-														<li class="buy-page__stores-item" data-map-search="https://lenta.com/">Лента</li>
-														<li class="buy-page__stores-item" data-map-search="https://www.auchan.ru/">Ашан</li>
-														<li class="buy-page__stores-item" data-map-search="www.pyaterochka.ru">Пятерочка</li>
-														<li class="buy-page__stores-item" data-map-search="https://dixy.ru/">Дикси</li>
-														<li class="buy-page__stores-item" data-map-search="https://vkusvill.ru/">ВкусВилл</li>
-													</ul>
-												</div>
-												<div class="buy-page__map" id="map"></div>
-											</div>
+										<div class="store__icon"><svg class="store__svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path fill-rule="evenodd" clip-rule="evenodd" d="M19.0001 6.41421L5.70718 19.7071L4.29297 18.2929L17.5859 5H10.0001V3H21.0001V14H19.0001V6.41421Z" fill="#2D2C29"></path>
+											</svg></div>
+									</a><a class="store" href="#" target="_blank">
+										<div class="store__container">
+											<picture class="picture">
+												<source srcset="assets/images/pyat.webp" type="image/webp" /><img class="picture__img" src="assets/images/pyat.jpeg" alt="" />
+											</picture>
 										</div>
-									</div>
-									<div class="section section--regular">
-										<h3 class="buy-page__heading section__heading">Найти в интернет-магазинах</h3>
-										<div class="buy-page__grid"><a class="store" href="#" target="_blank">
-												<div class="store__container">
-													<picture class="picture">
-														<source srcset="assets/images/magnit.webp" type="image/webp" /><img class="picture__img" src="assets/images/magnit.jpeg" alt="" />
-													</picture>
-												</div>
-												<div class="store__icon"><svg class="store__svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<path fill-rule="evenodd" clip-rule="evenodd" d="M19.0001 6.41421L5.70718 19.7071L4.29297 18.2929L17.5859 5H10.0001V3H21.0001V14H19.0001V6.41421Z" fill="#2D2C29"></path>
-													</svg></div>
-											</a><a class="store" href="#" target="_blank">
-												<div class="store__container">
-													<picture class="picture">
-														<source srcset="assets/images/pyat.webp" type="image/webp" /><img class="picture__img" src="assets/images/pyat.jpeg" alt="" />
-													</picture>
-												</div>
-												<div class="store__icon"><svg class="store__svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<path fill-rule="evenodd" clip-rule="evenodd" d="M19.0001 6.41421L5.70718 19.7071L4.29297 18.2929L17.5859 5H10.0001V3H21.0001V14H19.0001V6.41421Z" fill="#2D2C29"></path>
-													</svg></div>
-											</a><a class="store" href="#" target="_blank">
-												<div class="store__container">
-													<picture class="picture">
-														<source srcset="assets/images/perekrestok.webp" type="image/webp" /><img class="picture__img" src="assets/images/perekrestok.jpeg" alt="" />
-													</picture>
-												</div>
-												<div class="store__icon"><svg class="store__svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<path fill-rule="evenodd" clip-rule="evenodd" d="M19.0001 6.41421L5.70718 19.7071L4.29297 18.2929L17.5859 5H10.0001V3H21.0001V14H19.0001V6.41421Z" fill="#2D2C29"></path>
-													</svg></div>
-											</a><a class="store" href="#" target="_blank">
-												<div class="store__container">
-													<picture class="picture">
-														<source srcset="assets/images/ashan.webp" type="image/webp" /><img class="picture__img" src="assets/images/ashan.jpeg" alt="" />
-													</picture>
-												</div>
-												<div class="store__icon"><svg class="store__svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<path fill-rule="evenodd" clip-rule="evenodd" d="M19.0001 6.41421L5.70718 19.7071L4.29297 18.2929L17.5859 5H10.0001V3H21.0001V14H19.0001V6.41421Z" fill="#2D2C29"></path>
-													</svg></div>
-											</a><a class="store" href="#" target="_blank">
-												<div class="store__container">
-													<picture class="picture">
-														<source srcset="assets/images/karusel.webp" type="image/webp" /><img class="picture__img" src="assets/images/karusel.jpeg" alt="" />
-													</picture>
-												</div>
-												<div class="store__icon"><svg class="store__svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<path fill-rule="evenodd" clip-rule="evenodd" d="M19.0001 6.41421L5.70718 19.7071L4.29297 18.2929L17.5859 5H10.0001V3H21.0001V14H19.0001V6.41421Z" fill="#2D2C29"></path>
-													</svg></div>
-											</a><a class="store" href="#" target="_blank">
-												<div class="store__container">
-													<picture class="picture">
-														<source srcset="assets/images/AV.webp" type="image/webp" /><img class="picture__img" src="assets/images/AV.jpeg" alt="" />
-													</picture>
-												</div>
-												<div class="store__icon"><svg class="store__svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<path fill-rule="evenodd" clip-rule="evenodd" d="M19.0001 6.41421L5.70718 19.7071L4.29297 18.2929L17.5859 5H10.0001V3H21.0001V14H19.0001V6.41421Z" fill="#2D2C29"></path>
-													</svg></div>
-											</a><a class="store" href="#" target="_blank">
-												<div class="store__container">
-													<picture class="picture">
-														<source srcset="assets/images/lenta.webp" type="image/webp" /><img class="picture__img" src="assets/images/lenta.jpeg" alt="" />
-													</picture>
-												</div>
-												<div class="store__icon"><svg class="store__svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<path fill-rule="evenodd" clip-rule="evenodd" d="M19.0001 6.41421L5.70718 19.7071L4.29297 18.2929L17.5859 5H10.0001V3H21.0001V14H19.0001V6.41421Z" fill="#2D2C29"></path>
-													</svg></div>
-											</a><a class="store" href="#" target="_blank">
-												<div class="store__container">
-													<picture class="picture">
-														<source srcset="assets/images/metro.webp" type="image/webp" /><img class="picture__img" src="assets/images/metro.jpeg" alt="" />
-													</picture>
-												</div>
-												<div class="store__icon"><svg class="store__svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<path fill-rule="evenodd" clip-rule="evenodd" d="M19.0001 6.41421L5.70718 19.7071L4.29297 18.2929L17.5859 5H10.0001V3H21.0001V14H19.0001V6.41421Z" fill="#2D2C29"></path>
-													</svg></div>
-											</a><a class="store" href="#" target="_blank">
-												<div class="store__container">
-													<picture class="picture">
-														<source srcset="assets/images/okey.webp" type="image/webp" /><img class="picture__img" src="assets/images/okey.jpeg" alt="" />
-													</picture>
-												</div>
-												<div class="store__icon"><svg class="store__svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<path fill-rule="evenodd" clip-rule="evenodd" d="M19.0001 6.41421L5.70718 19.7071L4.29297 18.2929L17.5859 5H10.0001V3H21.0001V14H19.0001V6.41421Z" fill="#2D2C29"></path>
-													</svg></div>
-											</a><a class="store" href="#" target="_blank">
-												<div class="store__container">
-													<picture class="picture">
-														<source srcset="assets/images/dixi.webp" type="image/webp" /><img class="picture__img" src="assets/images/dixi.jpeg" alt="" />
-													</picture>
-												</div>
-												<div class="store__icon"><svg class="store__svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<path fill-rule="evenodd" clip-rule="evenodd" d="M19.0001 6.41421L5.70718 19.7071L4.29297 18.2929L17.5859 5H10.0001V3H21.0001V14H19.0001V6.41421Z" fill="#2D2C29"></path>
-													</svg></div>
-											</a><a class="store" href="#" target="_blank">
-												<div class="store__container">
-													<picture class="picture">
-														<source srcset="assets/images/magnit.webp" type="image/webp" /><img class="picture__img" src="assets/images/magnit.jpeg" alt="" />
-													</picture>
-												</div>
-												<div class="store__icon"><svg class="store__svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<path fill-rule="evenodd" clip-rule="evenodd" d="M19.0001 6.41421L5.70718 19.7071L4.29297 18.2929L17.5859 5H10.0001V3H21.0001V14H19.0001V6.41421Z" fill="#2D2C29"></path>
-													</svg></div>
-											</a><a class="store" href="#" target="_blank">
-												<div class="store__container">
-													<picture class="picture">
-														<source srcset="assets/images/pyat.webp" type="image/webp" /><img class="picture__img" src="assets/images/pyat.jpeg" alt="" />
-													</picture>
-												</div>
-												<div class="store__icon"><svg class="store__svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<path fill-rule="evenodd" clip-rule="evenodd" d="M19.0001 6.41421L5.70718 19.7071L4.29297 18.2929L17.5859 5H10.0001V3H21.0001V14H19.0001V6.41421Z" fill="#2D2C29"></path>
-													</svg></div>
-											</a><a class="store" href="#" target="_blank">
-												<div class="store__container">
-													<picture class="picture">
-														<source srcset="assets/images/perekrestok.webp" type="image/webp" /><img class="picture__img" src="assets/images/perekrestok.jpeg" alt="" />
-													</picture>
-												</div>
-												<div class="store__icon"><svg class="store__svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<path fill-rule="evenodd" clip-rule="evenodd" d="M19.0001 6.41421L5.70718 19.7071L4.29297 18.2929L17.5859 5H10.0001V3H21.0001V14H19.0001V6.41421Z" fill="#2D2C29"></path>
-													</svg></div>
-											</a></div>
-									</div>
-								</div>
+										<div class="store__icon"><svg class="store__svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path fill-rule="evenodd" clip-rule="evenodd" d="M19.0001 6.41421L5.70718 19.7071L4.29297 18.2929L17.5859 5H10.0001V3H21.0001V14H19.0001V6.41421Z" fill="#2D2C29"></path>
+											</svg></div>
+									</a><a class="store" href="#" target="_blank">
+										<div class="store__container">
+											<picture class="picture">
+												<source srcset="assets/images/perekrestok.webp" type="image/webp" /><img class="picture__img" src="assets/images/perekrestok.jpeg" alt="" />
+											</picture>
+										</div>
+										<div class="store__icon"><svg class="store__svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path fill-rule="evenodd" clip-rule="evenodd" d="M19.0001 6.41421L5.70718 19.7071L4.29297 18.2929L17.5859 5H10.0001V3H21.0001V14H19.0001V6.41421Z" fill="#2D2C29"></path>
+											</svg></div>
+									</a><a class="store" href="#" target="_blank">
+										<div class="store__container">
+											<picture class="picture">
+												<source srcset="assets/images/ashan.webp" type="image/webp" /><img class="picture__img" src="assets/images/ashan.jpeg" alt="" />
+											</picture>
+										</div>
+										<div class="store__icon"><svg class="store__svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path fill-rule="evenodd" clip-rule="evenodd" d="M19.0001 6.41421L5.70718 19.7071L4.29297 18.2929L17.5859 5H10.0001V3H21.0001V14H19.0001V6.41421Z" fill="#2D2C29"></path>
+											</svg></div>
+									</a><a class="store" href="#" target="_blank">
+										<div class="store__container">
+											<picture class="picture">
+												<source srcset="assets/images/karusel.webp" type="image/webp" /><img class="picture__img" src="assets/images/karusel.jpeg" alt="" />
+											</picture>
+										</div>
+										<div class="store__icon"><svg class="store__svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path fill-rule="evenodd" clip-rule="evenodd" d="M19.0001 6.41421L5.70718 19.7071L4.29297 18.2929L17.5859 5H10.0001V3H21.0001V14H19.0001V6.41421Z" fill="#2D2C29"></path>
+											</svg></div>
+									</a><a class="store" href="#" target="_blank">
+										<div class="store__container">
+											<picture class="picture">
+												<source srcset="assets/images/AV.webp" type="image/webp" /><img class="picture__img" src="assets/images/AV.jpeg" alt="" />
+											</picture>
+										</div>
+										<div class="store__icon"><svg class="store__svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path fill-rule="evenodd" clip-rule="evenodd" d="M19.0001 6.41421L5.70718 19.7071L4.29297 18.2929L17.5859 5H10.0001V3H21.0001V14H19.0001V6.41421Z" fill="#2D2C29"></path>
+											</svg></div>
+									</a><a class="store" href="#" target="_blank">
+										<div class="store__container">
+											<picture class="picture">
+												<source srcset="assets/images/lenta.webp" type="image/webp" /><img class="picture__img" src="assets/images/lenta.jpeg" alt="" />
+											</picture>
+										</div>
+										<div class="store__icon"><svg class="store__svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path fill-rule="evenodd" clip-rule="evenodd" d="M19.0001 6.41421L5.70718 19.7071L4.29297 18.2929L17.5859 5H10.0001V3H21.0001V14H19.0001V6.41421Z" fill="#2D2C29"></path>
+											</svg></div>
+									</a><a class="store" href="#" target="_blank">
+										<div class="store__container">
+											<picture class="picture">
+												<source srcset="assets/images/metro.webp" type="image/webp" /><img class="picture__img" src="assets/images/metro.jpeg" alt="" />
+											</picture>
+										</div>
+										<div class="store__icon"><svg class="store__svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path fill-rule="evenodd" clip-rule="evenodd" d="M19.0001 6.41421L5.70718 19.7071L4.29297 18.2929L17.5859 5H10.0001V3H21.0001V14H19.0001V6.41421Z" fill="#2D2C29"></path>
+											</svg></div>
+									</a><a class="store" href="#" target="_blank">
+										<div class="store__container">
+											<picture class="picture">
+												<source srcset="assets/images/okey.webp" type="image/webp" /><img class="picture__img" src="assets/images/okey.jpeg" alt="" />
+											</picture>
+										</div>
+										<div class="store__icon"><svg class="store__svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path fill-rule="evenodd" clip-rule="evenodd" d="M19.0001 6.41421L5.70718 19.7071L4.29297 18.2929L17.5859 5H10.0001V3H21.0001V14H19.0001V6.41421Z" fill="#2D2C29"></path>
+											</svg></div>
+									</a><a class="store" href="#" target="_blank">
+										<div class="store__container">
+											<picture class="picture">
+												<source srcset="assets/images/dixi.webp" type="image/webp" /><img class="picture__img" src="assets/images/dixi.jpeg" alt="" />
+											</picture>
+										</div>
+										<div class="store__icon"><svg class="store__svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path fill-rule="evenodd" clip-rule="evenodd" d="M19.0001 6.41421L5.70718 19.7071L4.29297 18.2929L17.5859 5H10.0001V3H21.0001V14H19.0001V6.41421Z" fill="#2D2C29"></path>
+											</svg></div>
+									</a><a class="store" href="#" target="_blank">
+										<div class="store__container">
+											<picture class="picture">
+												<source srcset="assets/images/magnit.webp" type="image/webp" /><img class="picture__img" src="assets/images/magnit.jpeg" alt="" />
+											</picture>
+										</div>
+										<div class="store__icon"><svg class="store__svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path fill-rule="evenodd" clip-rule="evenodd" d="M19.0001 6.41421L5.70718 19.7071L4.29297 18.2929L17.5859 5H10.0001V3H21.0001V14H19.0001V6.41421Z" fill="#2D2C29"></path>
+											</svg></div>
+									</a><a class="store" href="#" target="_blank">
+										<div class="store__container">
+											<picture class="picture">
+												<source srcset="assets/images/pyat.webp" type="image/webp" /><img class="picture__img" src="assets/images/pyat.jpeg" alt="" />
+											</picture>
+										</div>
+										<div class="store__icon"><svg class="store__svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path fill-rule="evenodd" clip-rule="evenodd" d="M19.0001 6.41421L5.70718 19.7071L4.29297 18.2929L17.5859 5H10.0001V3H21.0001V14H19.0001V6.41421Z" fill="#2D2C29"></path>
+											</svg></div>
+									</a><a class="store" href="#" target="_blank">
+										<div class="store__container">
+											<picture class="picture">
+												<source srcset="assets/images/perekrestok.webp" type="image/webp" /><img class="picture__img" src="assets/images/perekrestok.jpeg" alt="" />
+											</picture>
+										</div>
+										<div class="store__icon"><svg class="store__svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path fill-rule="evenodd" clip-rule="evenodd" d="M19.0001 6.41421L5.70718 19.7071L4.29297 18.2929L17.5859 5H10.0001V3H21.0001V14H19.0001V6.41421Z" fill="#2D2C29"></path>
+											</svg></div>
+									</a></div>
 							</div>
 						</div>
 					</section>
 					<section class="section section--regular">
 						<div class="follow follow--alt">
 							<div class="follow__row">
-								<div class="follow__col"></div>
-								<div class="follow__col">
-									<picture class="picture follow__picture">
-										<source srcset="assets/images/buy-bg.webp" type="image/webp" /><img class="picture__img" src="assets/images/buy-bg.jpeg" alt="" />
-									</picture>
-								</div>
+								<picture class="picture follow__picture">
+									<source srcset="assets/images/follow-bg.webp" type="image/webp" /><img class="picture__img" src="assets/images/follow-bg.jpeg" alt="" />
+								</picture>
 							</div>
 							<div class="follow__content">
 								<div class="follow__inner">
 									<div class="follow__inner-col">
 										<div class="follow__icon"><svg class="follow__svg" width="174" height="150" viewBox="0 0 174 150" fill="none" xmlns="http://www.w3.org/2000/svg">
-												<path d="M5 111L22.0539 88.8909C22.2418 88.6472 22.5472 88.5248 22.8514 88.5713L41.7166 91.4504C41.7943 91.4622 41.8733 91.4632 41.9513 91.4532L64.6062 88.5616C64.9212 88.5213 65.1872 88.308 65.2949 88.0092L77.6533 53.7185C77.7568 53.4315 78.0068 53.2224 78.3076 53.1713L104.837 48.6687C105.147 48.6162 105.46 48.7394 105.65 48.9887L118.603 65.9152C118.953 66.372 119.646 66.3543 119.972 65.8802L162.496 4" stroke="#2D2C29" stroke-width="6"></path>
-												<path d="M0 147H6.34474M173 147H160.733M160.733 147V39M160.733 147H141.276M141.276 147V59.0584M141.276 147H121.819M121.819 147V85.1058M121.819 147H102.785M102.785 147V67.1715M102.785 147H83.7506M83.7506 147V72.7226M83.7506 147H64.2934M64.2934 147V103.894M64.2934 147H45.2592M45.2592 147V106.029M45.2592 147H25.802M25.802 147V107.737M25.802 147H6.34474M6.34474 147V128.234" stroke="#2D2C29" stroke-width="6"></path>
-												<path d="M169.275 20.8443C161.907 17.7843 153.18 20.336 148.71 27.2817L145.291 32.5949C152.659 35.6549 161.386 33.1033 165.856 26.1576L169.275 20.8443Z" stroke="#2D2C29" stroke-width="6"></path>
-												<path d="M143.662 4.32924C149.755 9.48055 151.48 18.4074 147.35 25.5607L144.191 31.0326C138.098 25.8813 136.373 16.9544 140.503 9.80118L143.662 4.32924Z" stroke="#2D2C29" stroke-width="6"></path>
+												<path d="M5 111L22.0539 88.8909C22.2418 88.6472 22.5472 88.5248 22.8514 88.5713L41.7166 91.4504C41.7943 91.4622 41.8733 91.4632 41.9513 91.4532L64.6062 88.5616C64.9212 88.5213 65.1872 88.308 65.2949 88.0092L77.6533 53.7185C77.7568 53.4315 78.0068 53.2224 78.3076 53.1713L104.837 48.6687C105.147 48.6162 105.46 48.7394 105.65 48.9887L118.603 65.9152C118.953 66.372 119.646 66.3543 119.972 65.8802L162.496 4" stroke="#ECBB7C" stroke-width="6"></path>
+												<path d="M0 147H6.34474M173 147H160.733M160.733 147V39M160.733 147H141.276M141.276 147V59.0584M141.276 147H121.819M121.819 147V85.1058M121.819 147H102.785M102.785 147V67.1715M102.785 147H83.7506M83.7506 147V72.7226M83.7506 147H64.2934M64.2934 147V103.894M64.2934 147H45.2592M45.2592 147V106.029M45.2592 147H25.802M25.802 147V107.737M25.802 147H6.34474M6.34474 147V128.234" stroke="#ECBB7C" stroke-width="6"></path>
+												<path d="M169.276 20.8443C161.907 17.7843 153.18 20.336 148.71 27.2817L145.291 32.5949C152.66 35.6549 161.386 33.1033 165.856 26.1576L169.276 20.8443Z" stroke="#ECBB7C" stroke-width="6"></path>
+												<path d="M143.662 4.32924C149.755 9.48055 151.48 18.4074 147.35 25.5607L144.191 31.0326C138.098 25.8813 136.373 16.9544 140.503 9.80118L143.662 4.32924Z" stroke="#ECBB7C" stroke-width="6"></path>
 											</svg></div>
 									</div>
 									<div class="follow__inner-col">
