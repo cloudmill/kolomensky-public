@@ -56,34 +56,35 @@
 								</ul>
 							</div>
 							<h1 class="section__title">Клиентам</h1>
-							<div class="nav">
-								<ul class="nav__list">
-									<li class="nav__item">
-										<div class="nav__link active">Клиентам</div>
-									</li>
-									<li class="nav__item"><a class="nav__link" href="#">Поставщикам</a></li>
-								</ul>
+							<div class="only-desktop">
+								<div class="nav">
+									<ul class="nav__list">
+										<li class="nav__item">
+											<div class="nav__link active">Клиентам</div>
+										</li>
+										<li class="nav__item"><a class="nav__link" href="#">Поставщикам</a></li>
+									</ul>
+								</div>
 							</div>
 							<div class="section__inner section__inner--title">
 								<div class="clients-page__intro">
 									<div class="clients-page__intro-bg">
-										<picture class="picture clients-page__intro-img">
-											<source srcset="assets/images/clients.webp" type="image/webp" /><img class="picture__img" src="assets/images/clients.jpeg" alt="" />
-										</picture>
-										<picture class="picture clients-page__intro-img tablet">
-											<source srcset="assets/images/clients-tablet.webp" type="image/webp" /><img class="picture__img" src="assets/images/clients-tablet.jpeg" alt="" />
-										</picture>
-										<picture class="picture clients-page__intro-img mobile">
-											<source srcset="assets/images/clients-mobile.webp" type="image/webp" /><img class="picture__img" src="assets/images/clients-mobile.jpeg" alt="" />
+										<picture class="clients-page__intro-img">
+											<source srcset="assets/images/clients-bg-mob.webp" type="image/webp" media="(max-width: 1023px)">
+											<source srcset="assets/images/clients-bg-mob.png" type="image/png" media="(max-width: 1023px)">
+											<source srcset="assets/images/clients-bg.webp" type="image/webp"><img class="picture__img" src="assets/images/clients-bg.png" alt="">
 										</picture>
 									</div>
 									<div class="clients-page__intro-container">
 										<div class="clients-page__intro-top">
 											<div class="clients-page__intro-col">
 												<p class="clients-page__intro-text">Булочно-кондитерский холдинг «Коломенский» начинает свою историю с 1956 года&nbsp;<br>и на сегодняшний день включает в себя четыре площадки в Москве, Дедовске, Балашихе и Подольске.</p>
-											</div>
-											<div class="clients-page__intro-col">
-												<div class="clients-page__intro-heading">В холдинг входит<br>11 производственных площадок</div>
+												<ul class="clients-page__intro-list">
+													<li class="contacts-page__item-wrapper">Свежий хлеб</li>
+													<li class="contacts-page__item-wrapper">Продукты с длительным сроком годности</li>
+													<li class="contacts-page__item-wrapper">Замороженные полуфабрикаты</li>
+													<li class="contacts-page__item-wrapper">Свежие кондитерские изделия</li>
+												</ul>
 											</div>
 										</div>
 										<div class="clients-page__intro-bot">
@@ -134,68 +135,27 @@
 															<path d="M49.7239 30.3567H1.95849C0.870538 30.3567 0 31.2272 0 32.3152C0 33.4031 0.870528 34.2737 1.95849 34.2737H49.7239C50.8118 34.2737 51.6824 33.4031 51.6824 32.3152C51.6824 31.2818 50.8119 30.3567 49.7239 30.3567Z" fill="#C4AE60"></path>
 															<path d="M21.0537 10.01C16.2119 14.0358 13.1654 20.02 13.1654 26.8203H47.6566C47.6566 15.6678 39.333 6.5282 28.5613 5.16814C28.9423 4.62396 29.1598 3.97129 29.1598 3.31855C29.1598 1.46897 27.6908 0 25.8412 0C23.9916 0 22.5227 1.46897 22.5227 3.31855C22.5227 4.0259 22.7401 4.62431 23.1211 5.16814C12.3494 6.47361 3.97144 15.6678 3.97144 26.8203H8.97647C8.97647 18.9863 14.0361 12.3493 21.0538 10.01H21.0537Z" fill="#F5D76B"></path>
 														</svg></div>
-													<div class="clients-page__intro-caption">Рестораны и кафе</div>
+													<div class="clients-page__intro-caption">HoReCa</div>
 												</div>
 											</div>
 										</div>
 									</div>
 								</div>
 							</div>
-							<div class="section section--regular">
-								<div class="clients-page__docs">
-									<div class="clients-page__docs-col"><a class="clients-page__docs-link" href="#" target="_blank">
-											<div class="clients-page__docs-bg">
-												<div class="only-desktop">
-													<picture class="picture">
-														<source srcset="assets/images/clients-docs.webp" type="image/webp" /><img class="picture__img" src="assets/images/clients-docs.jpeg" alt="" />
-													</picture>
-												</div>
-												<div class="only-mobile">
-													<picture class="picture">
-														<source srcset="assets/images/clients-docs-mob.webp" type="image/webp" /><img class="picture__img" src="assets/images/clients-docs-mob.jpeg" alt="" />
-													</picture>
-												</div>
-											</div>
-											<div class="clients-page__docs-content">
-												<div class="clients-page__docs-heading">Презентация компании</div>
-												<div class="clients-page__docs-label">PDF</div>
-											</div>
-											<div class="clients-page__docs-btn"><svg class="clients-page__docs-svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd" d="M7.50002 10.8334L7.50002 5.83335L7.50002 3.33335L12.5 3.33335L12.5 5.83335L12.5 9.16669L12.5 10.8334H13.5806L10 14.1254L6.4194 10.8334L7.50002 10.8334ZM14.1667 3.33335L14.1667 5.83335L14.1667 9.16669L18.3334 9.16669L10 16.3206L1.66669 9.16669L5.83335 9.16669L5.83335 3.33335C5.83335 2.41288 6.57955 1.66669 7.50002 1.66669L12.5 1.66669C13.4205 1.66669 14.1667 2.41288 14.1667 3.33335ZM15.8334 18.3334C16.7538 18.3334 17.5 17.5872 17.5 16.6667H2.50002C2.50002 17.5872 3.24621 18.3334 4.16669 18.3334L15.8334 18.3334Z" fill="#2D2C29"></path>
-												</svg></div>
-										</a></div>
-									<div class="clients-page__docs-col">
-										<div class="clients-page__docs-text">
-											<p>Мы обеспечиваем поставки продукции в 12000 магазинов ежедневно в любое время суток, а также по запросу можем разработать и выпустить&nbsp;продукцию под вашей маркой.</p>
-											<p>Для ежедневной непрерывной клиентской отгрузки используется свой распределительный центр.</p>
-										</div>
-									</div>
-								</div>
-							</div>
-							<div class="section section--regular">
+							<div class="section section--mid">
 								<div class="clients-page__content">
 									<div class="clients-page__content-row">
 										<div class="clients-page__content-col">
 											<h3 class="section__heading">Продукция короткого срока хранения</h3>
-											<div class="clients-page__content-categories">
-												<div class="clients-page__content-category">
-													<div class="category category--gray category--md">Независимая розница</div>
-												</div>
-												<div class="clients-page__content-category">
-													<div class="category category--gray category--md">Самовывоз</div>
-												</div>
-												<div class="clients-page__content-category">
-													<div class="category category--gray category--md">Локальные сети</div>
-												</div>
-											</div>
+											<div class="clients-page__subtitle">Свежий Хлеб</div>
 											<div class="clients-page__content-wrapper">
 												<div class="clients-page__content-text">
-													<p>БКХ «Коломенский» располагает мощностями для производства более 150 тонн кондитерских в сутки. Кондитерские изделия доставляют по всей России и в страны ближнего и дальнего зарубежья.</p>
-													<p>Мы выпускаем исключительно натуральные и вкусные продукты-бестселлеры с понятным для потребителя составом. Хлебная продукция Холдинга входит в ТОП-20 хлебных продуктов рынка МСК и ЦФО, а благодаря инновационной логистике с Яндекс-маршрутизацией мы на ежедневной основе поставляем свою продукцию более, чем в 12 тысяч торговых точек.</p>
+													<p>Хлебопечение – основное направление деятельности Холдинга.<br>Коломенский выпускает пшеничные и ржано-пшеничные хлеба, сдобные и слоеные изделия под такими торговыми марками как: «Коломенский», «Хлебный дом», «Мастер Пирогов», «Даниловский», «Ржаной край», «Вкусно и просто», «Геркулес», «Энергия здоровья», «Бурже», «Ягодное лукошко» «Балашиха хлеб», «Волжский пекарь».</p>
+													<p>Натуральные, вкусные и качественные продукты с понятным для потребителя составом.</p>
 												</div>
 												<div class="clients-page__content-contacts">
 													<div class="clients-page__content-heading">Более подробную информацию вы можете узнать в отделе продаж</div>
-													<div class="clients-page__content-grid"><a class="clients-page__content-item" href="tel:84994261905">8 499 426 19 05<div class="clients-page__content-label">доб. 0002</div></a><a class="clients-page__content-item" href="mailto:hlsale@mbkk.ru">hlsale@mbkk.ru</a><a class="clients-page__content-download" href="#">
+													<div class="clients-page__content-grid"><a class="clients-page__content-item" href="tel:84994261905">8 499 426 19 05<div class="clients-page__content-label">доб. 0002</div></a><a class="clients-page__content-item" href="hlsale@khleb.ru">hlsale@khleb.ru</a><a class="clients-page__content-download" href="#">
 															<div class="clients-page__content-caption">Смотреть презентацию</div>
 															<div class="clients-page__content-icon"><svg class="clients-page__content-svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
 																	<path fill-rule="evenodd" clip-rule="evenodd" d="M7.50002 10.8334L7.50002 5.83335L7.50002 3.33335L12.5 3.33335L12.5 5.83335L12.5 9.16669L12.5 10.8334H13.5806L10 14.1254L6.4194 10.8334L7.50002 10.8334ZM14.1667 3.33335L14.1667 5.83335L14.1667 9.16669L18.3334 9.16669L10 16.3206L1.66669 9.16669L5.83335 9.16669L5.83335 3.33335C5.83335 2.41288 6.57955 1.66669 7.50002 1.66669L12.5 1.66669C13.4205 1.66669 14.1667 2.41288 14.1667 3.33335ZM15.8334 18.3334C16.7538 18.3334 17.5 17.5872 17.5 16.6667H2.50002C2.50002 17.5872 3.24621 18.3334 4.16669 18.3334L15.8334 18.3334Z" fill="#2D2C29"></path>
@@ -206,7 +166,7 @@
 										</div>
 										<div class="clients-page__content-col">
 											<picture class="picture clients-page__content-picture">
-												<source srcset="assets/images/clients-prod-1.webp" type="image/webp" /><img class="picture__img" src="assets/images/clients-prod-1.jpeg" alt="" />
+												<source srcset="assets/images/clients-prod-1-new.webp" type="image/webp" /><img class="picture__img" src="assets/images/clients-prod-1-new.jpeg" alt="" />
 											</picture>
 											<div class="clients-page__content-contacts tablet">
 												<div class="clients-page__content-heading">Более подробную информацию вы можете узнать в отделе продаж</div>
@@ -221,25 +181,20 @@
 									</div>
 								</div>
 							</div>
-							<div class="section section--regular">
+							<div class="section section--mid">
 								<div class="clients-page__content reverse">
 									<div class="clients-page__content-row">
 										<div class="clients-page__content-col">
 											<h3 class="section__heading">Продукция длительного срока хранения</h3>
-											<div class="clients-page__content-categories">
-												<div class="clients-page__content-category">
-													<div class="category category--gray category--md">Дистрибьютерам</div>
-												</div>
-											</div>
+											<div class="clients-page__subtitle">Кондитерские изделия</div>
 											<div class="clients-page__content-wrapper">
 												<div class="clients-page__content-text">
-													<p>БКХ «Коломенский» — лидер индустрии. Холдинг располагает мощностями для производства более 600 тонн хлебобулочных изделий в сутки. Продукция поставляется ежедневно в магазины Москвы и Московской области, а также в регионы Центрального федерального округа и Санкт-Петербурга.</p>
-													<p>Мы используем только отборное экологически чистое сырье без искусственных добавок и консервантов. Выпускаемые холдингом вафельные торты под брендом «Шоколадница» - являются лидером по продажам в сегменте вафельных тортов, имеют лучшее ассортиментное предложение на рынке и завоевали своего постоянного потребителя благодаря непревзойденному вкусу, т.к производство придерживается традиций качества и используются ингредиенты высокого качества, а вафли выпекаются по уникальной технологии.</p>
-													<p>Приобретая продукцию БКХ Коломенский, покупатель может быть уверенным в качестве, натуральности ингредиентов и настоящем вкусе любимых продуктов.</p>
+													<p>В кондитерском направлении Холдинг специализируется на производстве вафельной продукции, печенья, зефира под торговой маркой «Коломенский» и вафельные торты под легендарным брендом «Шоколадница», изготавливает сушки, баранки и пряники «Волжский пекарь», а также свежие торты.</p>
+													<p>В составе всей продукции кондитерского направления отсутствуют искусственные добавки и консерванты. Коломенский имеет собственный цех по приготовлению начинок из свежезамороженных ягод, а также линию по производству шоколада.</p>
 												</div>
 												<div class="clients-page__content-contacts">
 													<div class="clients-page__content-heading">Более подробную информацию вы можете узнать в отделе продаж</div>
-													<div class="clients-page__content-grid"><a class="clients-page__content-item" href="tel:84994261905">8 499 426 19 05<div class="clients-page__content-label">доб. 0001</div></a><a class="clients-page__content-item" href="mailto:konsale@mbkk.ru">konsale@mbkk.ru</a><a class="clients-page__content-download" href="#">
+													<div class="clients-page__content-grid"><a class="clients-page__content-item" href="tel:84994261905">8 499 426 19 05<div class="clients-page__content-label">доб. 0001</div></a><a class="clients-page__content-item" href="mailto:konsale@khleb.ru">konsale@khleb.ru</a><a class="clients-page__content-download" href="#">
 															<div class="clients-page__content-caption">Смотреть презентацию</div>
 															<div class="clients-page__content-icon"><svg class="clients-page__content-svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
 																	<path fill-rule="evenodd" clip-rule="evenodd" d="M7.50002 10.8334L7.50002 5.83335L7.50002 3.33335L12.5 3.33335L12.5 5.83335L12.5 9.16669L12.5 10.8334H13.5806L10 14.1254L6.4194 10.8334L7.50002 10.8334ZM14.1667 3.33335L14.1667 5.83335L14.1667 9.16669L18.3334 9.16669L10 16.3206L1.66669 9.16669L5.83335 9.16669L5.83335 3.33335C5.83335 2.41288 6.57955 1.66669 7.50002 1.66669L12.5 1.66669C13.4205 1.66669 14.1667 2.41288 14.1667 3.33335ZM15.8334 18.3334C16.7538 18.3334 17.5 17.5872 17.5 16.6667H2.50002C2.50002 17.5872 3.24621 18.3334 4.16669 18.3334L15.8334 18.3334Z" fill="#2D2C29"></path>
@@ -250,7 +205,7 @@
 										</div>
 										<div class="clients-page__content-col">
 											<picture class="picture clients-page__content-picture">
-												<source srcset="assets/images/clients-prod.webp" type="image/webp" /><img class="picture__img" src="assets/images/clients-prod.jpeg" alt="" />
+												<source srcset="assets/images/clients-prod-2-new.webp" type="image/webp" /><img class="picture__img" src="assets/images/clients-prod-2-new.jpeg" alt="" />
 											</picture>
 											<div class="clients-page__content-contacts tablet">
 												<div class="clients-page__content-heading">Более подробную информацию вы можете узнать в отделе продаж</div>
@@ -265,180 +220,46 @@
 									</div>
 								</div>
 							</div>
-							<div class="section section--regular">
-								<div class="map" data-real-tabs="">
-									<div class="map__content">
-										<div class="map__title section__heading">География поставок&nbsp;<br>продукции</div>
-										<div class="map__tabs">
-											<div class="prod-power-tabs"><button class="prod-power-tabs__item active" data-tabs-item="">Свежий хлеб</button><button class="prod-power-tabs__item" data-tabs-item="">Кондитерские изделия</button><button class="prod-power-tabs__item" data-tabs-item="">Замороженная продукция</button></div>
+							<div class="section section--mid">
+								<div class="clients-page__content">
+									<div class="clients-page__content-row">
+										<div class="clients-page__content-col">
+											<h3 class="section__heading">Замороженная продукция</h3>
+											<div class="clients-page__subtitle">Замороженные хлебобулочные полуфабрикаты</div>
+											<div class="clients-page__content-wrapper">
+												<div class="clients-page__content-text">
+													<p>Продукция в данной категории производится на современных автоматизированных линиях с применением шоковой заморозки. Благодаря такой технологии хлебобулочные изделия (готовностью до 95%) допекаются уже в пекарнях, кондитерских, кафе, ресторанах, торговых сетях и потребитель получает свежую выпечку. Изделия поставляются практически во все регионы России.</p>
+													<p>Развитие направления быстрозамороженных продуктов - одно из приоритетных для Холдинга «Коломенский». Основа успеха – разнообразный ассортимент, успешные новинки, глубокое изучение потребностей потребителя, уникальные технологии, высокое качество продукции и ответственное отношение к взаимодействию с Партнерами. Наши Партнеры могут рассчитывать на полную поддержку, будь то вопрос доставки, продажи или технического обслуживания. Ассортимент быстрозамороженных полуфабрикатов включает багеты, чиабатты, слоеные изделия с сытными начинками, нежнейшие сдобные изделия, хлеба, пиццу, тесто и ассортимент для приготовления вкуснейшей выпечки дома.</p>
+												</div>
+												<div class="clients-page__content-contacts">
+													<div class="clients-page__content-heading">Более подробную информацию вы можете узнать в отделе продаж</div>
+													<div class="clients-page__content-grid"><a class="clients-page__content-item" href="tel:84994261905">8 499 426 19 05<div class="clients-page__content-label">доб. 0002</div></a><a class="clients-page__content-item" href="hlsale@khleb.ru">hlsale@khleb.ru</a><a class="clients-page__content-download" href="#">
+															<div class="clients-page__content-caption">Смотреть презентацию</div>
+															<div class="clients-page__content-icon"><svg class="clients-page__content-svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+																	<path fill-rule="evenodd" clip-rule="evenodd" d="M7.50002 10.8334L7.50002 5.83335L7.50002 3.33335L12.5 3.33335L12.5 5.83335L12.5 9.16669L12.5 10.8334H13.5806L10 14.1254L6.4194 10.8334L7.50002 10.8334ZM14.1667 3.33335L14.1667 5.83335L14.1667 9.16669L18.3334 9.16669L10 16.3206L1.66669 9.16669L5.83335 9.16669L5.83335 3.33335C5.83335 2.41288 6.57955 1.66669 7.50002 1.66669L12.5 1.66669C13.4205 1.66669 14.1667 2.41288 14.1667 3.33335ZM15.8334 18.3334C16.7538 18.3334 17.5 17.5872 17.5 16.6667H2.50002C2.50002 17.5872 3.24621 18.3334 4.16669 18.3334L15.8334 18.3334Z" fill="#2D2C29"></path>
+																</svg></div>
+														</a></div>
+												</div>
+											</div>
 										</div>
-									</div>
-									<div class="map__container">
-										<div class="map__block active" data-tabs-block="" data-pin-container="">
-											<picture class="picture map__img" data-pin-image="">
-												<source srcset="assets/images/map-1.webp" type="image/webp"><img class="picture__img" src="assets/images/map-1.jpeg" alt="">
+										<div class="clients-page__content-col">
+											<picture class="picture clients-page__content-picture">
+												<source srcset="assets/images/clients-prod-3-new.webp" type="image/webp" /><img class="picture__img" src="assets/images/clients-prod-3-new.jpeg" alt="" />
 											</picture>
-										</div>
-										<div class="map__block" data-tabs-block="" data-pin-container="">
-											<picture class="picture map__img" data-pin-image="">
-												<source srcset="assets/images/map-2.webp" type="image/webp"><img class="picture__img" src="assets/images/map-2.jpeg" alt="">
-											</picture>
-										</div>
-										<div class="map__block" data-tabs-block="" data-pin-container="">
-											<picture class="picture map__img" data-pin-image="">
-												<source srcset="assets/images/map-3.webp" type="image/webp"><img class="picture__img" src="assets/images/map-3.jpeg" alt="">
-											</picture>
-										</div>
-										<div class="map__icon"><svg class="map__svg" width="97" height="97" viewBox="0 0 97 97" fill="none" xmlns="http://www.w3.org/2000/svg">
-												<circle cx="48.5" cy="48.5" r="48.5" fill="white"></circle>
-												<path d="M47.5051 35.6997C45.882 35.6997 44.5726 36.9674 44.4299 38.5551C43.9515 38.2568 43.4207 38.0424 42.819 38.0424C41.1876 38.0424 39.8748 39.3232 39.7437 40.9223C37.9553 41.2781 36.571 42.7909 36.571 44.6806V47.8046C36.571 49.7537 37.6505 51.6934 38.9141 53.4424C40.0946 55.0764 41.4472 56.4916 42.4283 57.4815V59.5195C42.4283 59.9284 42.8004 60.3004 43.2092 60.3004H56.4858C56.8946 60.3004 57.2667 59.9283 57.2667 59.5195V55.4926C58.953 53.6797 60 51.2595 60 48.5858V42.7285C60 41.0115 58.5931 39.6046 56.876 39.6046C56.2743 39.6046 55.7435 39.8187 55.2651 40.1172C55.1224 38.5295 53.8131 37.2619 52.1899 37.2619C51.5256 37.2619 50.9408 37.5144 50.4328 37.872C50.0245 36.6212 48.8862 35.7001 47.5042 35.7001L47.5051 35.6997ZM47.5051 37.2615C48.3838 37.2615 49.0669 37.9446 49.0669 38.8233V40.3851C49.0669 40.8166 49.4166 41.166 49.8478 41.166C50.2792 41.166 50.6287 40.8163 50.6287 40.3851C50.6287 39.5064 51.3118 38.8233 52.1905 38.8233C53.0692 38.8233 53.7523 39.5064 53.7523 40.3851V42.7279C53.7523 43.1593 54.102 43.5088 54.5332 43.5088C54.9646 43.5088 55.3141 43.1591 55.3141 42.7279C55.3141 41.849 55.9972 41.1661 56.8759 41.1661C57.7546 41.1661 58.4377 41.8492 58.4377 42.7279V48.5852C58.4377 50.9726 57.4879 53.1105 55.9361 54.662C55.7882 54.8083 55.7027 55.0153 55.7043 55.2234V58.7376H43.9898V57.1758C43.9914 56.968 43.9059 56.7607 43.758 56.6144C42.7929 55.6493 41.3596 54.1559 40.1827 52.5265C39.0055 50.8971 38.1328 49.1332 38.1328 47.8039V44.68C38.1328 43.643 38.7767 42.7867 39.6946 42.4712V47.0227C39.6889 47.4353 40.0629 47.8159 40.4755 47.8159C40.8882 47.8159 41.2624 47.4353 41.2564 47.0227V41.1654C41.2564 40.2867 41.9396 39.6036 42.8182 39.6036C43.697 39.6036 44.38 40.2867 44.38 41.1654C44.38 41.5968 44.7298 41.9463 45.1609 41.9463C45.5924 41.9463 45.9418 41.5966 45.9418 41.1654V38.8223C45.9418 37.9436 46.625 37.2605 47.5036 37.2605L47.5051 37.2615Z" fill="#2D2C29"></path>
-												<path fill-rule="evenodd" clip-rule="evenodd" d="M43.5852 18.0862L42.5835 17.0844L48.751 10.9169L54.9186 17.0844L53.9168 18.0862L48.751 12.9204L43.5852 18.0862Z" fill="#2D2C29"></path>
-												<path fill-rule="evenodd" clip-rule="evenodd" d="M43.5852 78.9138L42.5835 79.9156L48.751 86.0831L54.9186 79.9156L53.9168 78.9138L48.751 84.0796L43.5852 78.9138Z" fill="#2D2C29"></path>
-												<path fill-rule="evenodd" clip-rule="evenodd" d="M78.9138 43.5854L79.9156 42.5836L86.0831 48.7512L79.9156 54.9187L78.9138 53.917L84.0796 48.7512L78.9138 43.5854Z" fill="#2D2C29"></path>
-												<path fill-rule="evenodd" clip-rule="evenodd" d="M18.0863 43.5854L17.0846 42.5836L10.917 48.7512L17.0846 54.9187L18.0863 53.917L12.9205 48.7512L18.0863 43.5854Z" fill="#2D2C29"></path>
-											</svg></div>
-									</div>
-								</div>
-							</div>
-							<div class="section section--regular">
-								<div class="section__heading">Работаем с федеральными сетями<br>и основными игроками онлайн-торговли</div>
-								<div class="clients-page__stores">
-									<div class="clients-page__stores-block">
-										<div class="clients-page__stores-heading">Федеральные сети РФ</div>
-										<div class="clients-page__stores-grid"><a class="store store--slider" href="#" target="_blank">
-												<div class="store__container">
-													<picture class="picture">
-														<source srcset="assets/images/magnit.webp" type="image/webp" /><img class="picture__img" src="assets/images/magnit.jpeg" alt="" />
-													</picture>
-												</div>
-											</a><a class="store store--slider" href="#" target="_blank">
-												<div class="store__container">
-													<picture class="picture">
-														<source srcset="assets/images/pyat.webp" type="image/webp" /><img class="picture__img" src="assets/images/pyat.jpeg" alt="" />
-													</picture>
-												</div>
-											</a><a class="store store--slider" href="#" target="_blank">
-												<div class="store__container">
-													<picture class="picture">
-														<source srcset="assets/images/perekrestok.webp" type="image/webp" /><img class="picture__img" src="assets/images/perekrestok.jpeg" alt="" />
-													</picture>
-												</div>
-											</a><a class="store store--slider" href="#" target="_blank">
-												<div class="store__container">
-													<picture class="picture">
-														<source srcset="assets/images/ashan.webp" type="image/webp" /><img class="picture__img" src="assets/images/ashan.jpeg" alt="" />
-													</picture>
-												</div>
-											</a><a class="store store--slider" href="#" target="_blank">
-												<div class="store__container">
-													<picture class="picture">
-														<source srcset="assets/images/karusel.webp" type="image/webp" /><img class="picture__img" src="assets/images/karusel.jpeg" alt="" />
-													</picture>
-												</div>
-											</a><a class="store store--slider" href="#" target="_blank">
-												<div class="store__container">
-													<picture class="picture">
-														<source srcset="assets/images/AV.webp" type="image/webp" /><img class="picture__img" src="assets/images/AV.jpeg" alt="" />
-													</picture>
-												</div>
-											</a><a class="store store--slider" href="#" target="_blank">
-												<div class="store__container">
-													<picture class="picture">
-														<source srcset="assets/images/lenta.webp" type="image/webp" /><img class="picture__img" src="assets/images/lenta.jpeg" alt="" />
-													</picture>
-												</div>
-											</a><a class="store store--slider" href="#" target="_blank">
-												<div class="store__container">
-													<picture class="picture">
-														<source srcset="assets/images/metro.webp" type="image/webp" /><img class="picture__img" src="assets/images/metro.jpeg" alt="" />
-													</picture>
-												</div>
-											</a><a class="store store--slider" href="#" target="_blank">
-												<div class="store__container">
-													<picture class="picture">
-														<source srcset="assets/images/okey.webp" type="image/webp" /><img class="picture__img" src="assets/images/okey.jpeg" alt="" />
-													</picture>
-												</div>
-											</a><a class="store store--slider" href="#" target="_blank">
-												<div class="store__container">
-													<picture class="picture">
-														<source srcset="assets/images/dixi.webp" type="image/webp" /><img class="picture__img" src="assets/images/dixi.jpeg" alt="" />
-													</picture>
-												</div>
-											</a></div>
-									</div>
-									<div class="clients-page__stores-block">
-										<div class="clients-page__stores-heading">Онлайн-магазины</div>
-										<div class="clients-page__stores-grid"><a class="store store--slider" href="#" target="_blank">
-												<div class="store__container">
-													<picture class="picture">
-														<source srcset="assets/images/magnit.webp" type="image/webp" /><img class="picture__img" src="assets/images/magnit.jpeg" alt="" />
-													</picture>
-												</div>
-											</a><a class="store store--slider" href="#" target="_blank">
-												<div class="store__container">
-													<picture class="picture">
-														<source srcset="assets/images/magnit.webp" type="image/webp" /><img class="picture__img" src="assets/images/magnit.jpeg" alt="" />
-													</picture>
-												</div>
-											</a><a class="store store--slider" href="#" target="_blank">
-												<div class="store__container">
-													<picture class="picture">
-														<source srcset="assets/images/magnit.webp" type="image/webp" /><img class="picture__img" src="assets/images/magnit.jpeg" alt="" />
-													</picture>
-												</div>
-											</a><a class="store store--slider" href="#" target="_blank">
-												<div class="store__container">
-													<picture class="picture">
-														<source srcset="assets/images/magnit.webp" type="image/webp" /><img class="picture__img" src="assets/images/magnit.jpeg" alt="" />
-													</picture>
-												</div>
-											</a><a class="store store--slider" href="#" target="_blank">
-												<div class="store__container">
-													<picture class="picture">
-														<source srcset="assets/images/magnit.webp" type="image/webp" /><img class="picture__img" src="assets/images/magnit.jpeg" alt="" />
-													</picture>
-												</div>
-											</a></div>
-									</div>
-								</div>
-							</div>
-							<div class="section section--regular">
-								<div class="accordion" data-accordion="">
-									<div class="accordion__head" data-accordion-button="">
-										<div class="accordion__title">Перечень необходимых документов</div>
-										<div class="accordion__buttons">
-											<div class="only-desktop"><a class="accordion__download" href="#">
-													<div class="accordion__download-text">Скачать архивом</div>
-													<div class="accordion__download-icon"><svg class="accordion__download-svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-															<path fill-rule="evenodd" clip-rule="evenodd" d="M7.50002 10.8334L7.50002 5.83335L7.50002 3.33335L12.5 3.33335L12.5 5.83335L12.5 9.16669L12.5 10.8334H13.5806L10 14.1254L6.4194 10.8334L7.50002 10.8334ZM14.1667 3.33335L14.1667 5.83335L14.1667 9.16669L18.3334 9.16669L10 16.3206L1.66669 9.16669L5.83335 9.16669L5.83335 3.33335C5.83335 2.41288 6.57955 1.66669 7.50002 1.66669L12.5 1.66669C13.4205 1.66669 14.1667 2.41288 14.1667 3.33335ZM15.8334 18.3334C16.7538 18.3334 17.5 17.5872 17.5 16.6667H2.50002C2.50002 17.5872 3.24621 18.3334 4.16669 18.3334L15.8334 18.3334Z" fill="#2D2C29"></path>
-														</svg></div>
-												</a></div>
-											<div class="accordion__icon"><svg class="accordion__svg" width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-													<path fill-rule="evenodd" clip-rule="evenodd" d="M16.2821 5.78088L17.4606 6.95939L10.2047 14.2153L2.94873 6.95939L4.12724 5.78088L10.2047 11.8583L16.2821 5.78088Z" fill="#2D2C29"></path>
-												</svg></div>
-										</div>
-									</div>
-									<div class="accordion__body" data-accordion-dropdown="">
-										<div class="only-mobile"><a class="accordion__download" href="#">
-												<div class="accordion__download-text">Скачать архивом</div>
-												<div class="accordion__download-icon"><svg class="accordion__download-svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-														<path fill-rule="evenodd" clip-rule="evenodd" d="M7.50002 10.8334L7.50002 5.83335L7.50002 3.33335L12.5 3.33335L12.5 5.83335L12.5 9.16669L12.5 10.8334H13.5806L10 14.1254L6.4194 10.8334L7.50002 10.8334ZM14.1667 3.33335L14.1667 5.83335L14.1667 9.16669L18.3334 9.16669L10 16.3206L1.66669 9.16669L5.83335 9.16669L5.83335 3.33335C5.83335 2.41288 6.57955 1.66669 7.50002 1.66669L12.5 1.66669C13.4205 1.66669 14.1667 2.41288 14.1667 3.33335ZM15.8334 18.3334C16.7538 18.3334 17.5 17.5872 17.5 16.6667H2.50002C2.50002 17.5872 3.24621 18.3334 4.16669 18.3334L15.8334 18.3334Z" fill="#2D2C29"></path>
-													</svg></div>
-											</a></div>
-										<div class="accordion__wrapper content">
-											<ul>
-												<li><a href="#">Устав (действующая на момент предоставления редакция)</a></li>
-												<li><a href="#">Учредительный договор или Решение о создании юридического лица</a></li>
-												<li><a href="#">Свидетельство о государственной регистрации юридического лица (либо свидетельство о внесении записи в единый государственный реестр юридических лиц о юридическом лице, зарегистрированном до 01.06.2002)</a></li>
-												<li><a href="#">Выписка из единого государственного реестра юридических лиц (ЕГРЮЛ), полученная не ранее, чем за 30 дней до ее предоставления в ЗАО БКХ «Коломенский».</a></li>
-												<li><a href="#">Протокол/Решение о назначении единоличного исполнительного органа (Генеральный директор, директор, Президент и проч.)</a></li>
-											</ul>
+											<div class="clients-page__content-contacts tablet">
+												<div class="clients-page__content-heading">Более подробную информацию вы можете узнать в отделе продаж</div>
+												<div class="clients-page__content-grid"><a class="clients-page__content-item" href="tel:84994261905">8 499 426 19 05<div class="clients-page__content-label">доб. 0002</div></a><a class="clients-page__content-item" href="mailto:hlsale@mbkk.ru">hlsale@mbkk.ru</a><a class="clients-page__content-download" href="#">
+														<div class="clients-page__content-caption">Смотреть презентацию</div>
+														<div class="clients-page__content-icon"><svg class="clients-page__content-svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+																<path fill-rule="evenodd" clip-rule="evenodd" d="M7.50002 10.8334L7.50002 5.83335L7.50002 3.33335L12.5 3.33335L12.5 5.83335L12.5 9.16669L12.5 10.8334H13.5806L10 14.1254L6.4194 10.8334L7.50002 10.8334ZM14.1667 3.33335L14.1667 5.83335L14.1667 9.16669L18.3334 9.16669L10 16.3206L1.66669 9.16669L5.83335 9.16669L5.83335 3.33335C5.83335 2.41288 6.57955 1.66669 7.50002 1.66669L12.5 1.66669C13.4205 1.66669 14.1667 2.41288 14.1667 3.33335ZM15.8334 18.3334C16.7538 18.3334 17.5 17.5872 17.5 16.6667H2.50002C2.50002 17.5872 3.24621 18.3334 4.16669 18.3334L15.8334 18.3334Z" fill="#2D2C29"></path>
+															</svg></div>
+													</a></div>
+											</div>
 										</div>
 									</div>
 								</div>
 							</div>
-							<div class="section section--regular">
+							<div class="section section--mid">
 								<h3 class="section__heading">Задать вопрос или оставить заявку<br>на сотрудничество</h3>
 								<form class="clients-page__form" action="/" data-form="" data-form-id="contact">
 									<div class="clients-page__form-grid">
@@ -514,6 +335,41 @@
 										</div>
 									</div>
 								</form>
+							</div>
+							<div class="section section--mid">
+								<div class="accordion" data-accordion="">
+									<div class="accordion__head" data-accordion-button="">
+										<div class="accordion__title">Должная осмотрительность – пакет документов для новых партнёров</div>
+										<div class="accordion__buttons">
+											<div class="only-desktop"><a class="accordion__download" href="#">
+													<div class="accordion__download-text">Скачать архивом</div>
+													<div class="accordion__download-icon"><svg class="accordion__download-svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+															<path fill-rule="evenodd" clip-rule="evenodd" d="M7.50002 10.8334L7.50002 5.83335L7.50002 3.33335L12.5 3.33335L12.5 5.83335L12.5 9.16669L12.5 10.8334H13.5806L10 14.1254L6.4194 10.8334L7.50002 10.8334ZM14.1667 3.33335L14.1667 5.83335L14.1667 9.16669L18.3334 9.16669L10 16.3206L1.66669 9.16669L5.83335 9.16669L5.83335 3.33335C5.83335 2.41288 6.57955 1.66669 7.50002 1.66669L12.5 1.66669C13.4205 1.66669 14.1667 2.41288 14.1667 3.33335ZM15.8334 18.3334C16.7538 18.3334 17.5 17.5872 17.5 16.6667H2.50002C2.50002 17.5872 3.24621 18.3334 4.16669 18.3334L15.8334 18.3334Z" fill="#2D2C29"></path>
+														</svg></div>
+												</a></div>
+											<div class="accordion__icon"><svg class="accordion__svg" width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path fill-rule="evenodd" clip-rule="evenodd" d="M16.2821 5.78088L17.4606 6.95939L10.2047 14.2153L2.94873 6.95939L4.12724 5.78088L10.2047 11.8583L16.2821 5.78088Z" fill="#2D2C29"></path>
+												</svg></div>
+										</div>
+									</div>
+									<div class="accordion__body" data-accordion-dropdown="">
+										<div class="only-mobile"><a class="accordion__download" href="#">
+												<div class="accordion__download-text">Скачать архивом</div>
+												<div class="accordion__download-icon"><svg class="accordion__download-svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+														<path fill-rule="evenodd" clip-rule="evenodd" d="M7.50002 10.8334L7.50002 5.83335L7.50002 3.33335L12.5 3.33335L12.5 5.83335L12.5 9.16669L12.5 10.8334H13.5806L10 14.1254L6.4194 10.8334L7.50002 10.8334ZM14.1667 3.33335L14.1667 5.83335L14.1667 9.16669L18.3334 9.16669L10 16.3206L1.66669 9.16669L5.83335 9.16669L5.83335 3.33335C5.83335 2.41288 6.57955 1.66669 7.50002 1.66669L12.5 1.66669C13.4205 1.66669 14.1667 2.41288 14.1667 3.33335ZM15.8334 18.3334C16.7538 18.3334 17.5 17.5872 17.5 16.6667H2.50002C2.50002 17.5872 3.24621 18.3334 4.16669 18.3334L15.8334 18.3334Z" fill="#2D2C29"></path>
+													</svg></div>
+											</a></div>
+										<div class="accordion__wrapper content">
+											<ul>
+												<li><a href="#">Устав (действующая на момент предоставления редакция)</a></li>
+												<li><a href="#">Учредительный договор или Решение о создании юридического лица</a></li>
+												<li><a href="#">Свидетельство о государственной регистрации юридического лица (либо свидетельство о внесении записи в единый государственный реестр юридических лиц о юридическом лице, зарегистрированном до 01.06.2002)</a></li>
+												<li><a href="#">Выписка из единого государственного реестра юридических лиц (ЕГРЮЛ), полученная не ранее, чем за 30 дней до ее предоставления в ЗАО БКХ «Коломенский».</a></li>
+												<li><a href="#">Протокол/Решение о назначении единоличного исполнительного органа (Генеральный директор, директор, Президент и проч.)</a></li>
+											</ul>
+										</div>
+									</div>
+								</div>
 							</div>
 						</div>
 					</section>

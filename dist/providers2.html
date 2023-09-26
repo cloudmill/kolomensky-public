@@ -1,0 +1,475 @@
+<!doctype html>
+<html lang="ru">
+
+	<head>
+		<meta charset="utf-8">
+		<title>Коломенский</title>
+		<meta name="viewport" content="width=device-width,initial-scale=1,user-scalable=no">
+		<script defer="defer" src="assets/vendor.js"></script>
+		<script defer="defer" src="assets/app.js"></script>
+		<link href="styles.css" rel="stylesheet">
+		<link href="app.css" rel="stylesheet">
+	</head>
+
+	<body class="body body--notransition">
+		<div class="wrapper">
+			<header class="header">
+				<div class="container header__container">
+					<div class="header__col flex"><img class="header__logo" src="assets/images/svg/logo.svg" alt="" /></div>
+					<div class="header__col"><button class="header__catalog-btn" data-fancy-button="catalog-menu"><span>Каталог продукции</span>
+							<div class="header__catalog-btn-ico"><svg class="header__catalog-btn-dots" width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<circle cx="2" cy="2" r="2" fill="#2D2C29"></circle>
+									<circle cx="2" cy="12" r="2" fill="#2D2C29"></circle>
+									<circle cx="12" cy="2" r="2" fill="#2D2C29"></circle>
+									<circle cx="12" cy="12" r="2" fill="#2D2C29"></circle>
+								</svg><svg class="header__catalog-btn-cross" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+									<path fill-rule="evenodd" clip-rule="evenodd" d="M9.99996 8.82149L15.3033 3.51819L16.4818 4.6967L11.1785 10L16.4818 15.3033L15.3033 16.4818L9.99996 11.1785L4.69666 16.4818L3.51814 15.3033L8.82145 10L3.51814 4.6967L4.69666 3.51819L9.99996 8.82149Z" fill="#FAD03A"></path>
+								</svg></div>
+						</button></div>
+					<div class="header__col"><button class="header__search-btn" data-fancy-button="search-modal"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M10 18C5.58172 18 2 14.4183 2 10C2 5.58172 5.58172 2 10 2C14.4183 2 18 5.58172 18 10C18 11.8487 17.3729 13.551 16.3199 14.9056L21.7071 20.2929L20.2929 21.7071L14.9056 16.3199C13.551 17.3729 11.8487 18 10 18ZM16 10C16 13.3137 13.3137 16 10 16C6.68629 16 4 13.3137 4 10C4 6.68629 6.68629 4 10 4C13.3137 4 16 6.68629 16 10Z" fill="#2D2C29"></path>
+							</svg></button></div>
+					<nav class="header__col header-nav"><button class="header-nav__item" data-fancy-button="holding-menu"><span>О холдинге</span><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M16.0755 6.07813L17.254 7.25664L9.99811 14.5126L2.74219 7.25664L3.9207 6.07812L9.99811 12.1555L16.0755 6.07813Z" fill="#2D2C29"></path>
+							</svg></button><button class="header-nav__item" data-fancy-button="clients-menu"><span>Покупателю</span><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M16.0755 6.07813L17.254 7.25664L9.99811 14.5126L2.74219 7.25664L3.9207 6.07812L9.99811 12.1555L16.0755 6.07813Z" fill="#2D2C29"></path>
+							</svg></button><button class="header-nav__item" data-fancy-button="partners-menu"><span>Партнерам и бизнесу</span><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M16.0755 6.07813L17.254 7.25664L9.99811 14.5126L2.74219 7.25664L3.9207 6.07812L9.99811 12.1555L16.0755 6.07813Z" fill="#2D2C29"></path>
+							</svg></button><a class="header-nav__item" href=""><span>Панорама 360</span></a></nav><button class="mob-menu" data-fancy-button="mobile-menu"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<line x1="2" y1="6.25" x2="22" y2="6.25" stroke="#2D2C29" stroke-width="1.5"></line>
+							<line x1="2" y1="11.25" x2="22" y2="11.25" stroke="#2D2C29" stroke-width="1.5"></line>
+							<line x1="2" y1="16.25" x2="22" y2="16.25" stroke="#2D2C29" stroke-width="1.5"></line>
+						</svg></button>
+				</div>
+			</header>
+			<main class="main">
+				<div class="section section--first section--last">
+					<div class="container">
+						<div class="breadcrumbs">
+							<ul class="breadcrumbs__list">
+								<li class="breadcrumbs__item"><a class="breadcrumbs__link" href="#">Главная</a></li>
+								<li class="breadcrumbs__item"><a class="breadcrumbs__link" href="#">Партнерам и бизнесу</a></li>
+								<li class="breadcrumbs__item">
+									<div class="breadcrumbs__text">Поставщикам</div>
+								</li>
+							</ul>
+						</div>
+						<div class="section__offset">
+							<h1 class="section__title blue-txt">Поставщикам</h1>
+						</div>
+						<div class="only-desktop">
+							<div class="nav">
+								<ul class="nav__list">
+									<li class="nav__item"><a class="nav__link" href="#">Клиентам</a></li>
+									<li class="nav__item">
+										<div class="nav__link active">Поставщикам</div>
+									</li>
+								</ul>
+							</div>
+						</div>
+						<section class="principles">
+							<h2 class="principles-title section__heading text-center">Основные принципы закупочной политики</h2>
+							<div class="principles-slider">
+								<div class="principles-slider__bottom only-desktop">
+									<div class="slider-buttons">
+										<div class="slider-buttons__item"><button class="arrow-btn" id="principles-slider-prev"><svg class="arrow-btn__svg slider-buttons__svg" width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path fill-rule="evenodd" clip-rule="evenodd" d="M16.2821 5.78088L17.4606 6.95939L10.2047 14.2153L2.94873 6.95939L4.12724 5.78088L10.2047 11.8583L16.2821 5.78088Z" fill="#2D2C29"></path>
+												</svg></button></div>
+										<div class="slider-buttons__item"><button class="arrow-btn" id="principles-slider-next"><svg class="arrow-btn__svg" width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path fill-rule="evenodd" clip-rule="evenodd" d="M16.2821 5.78088L17.4606 6.95939L10.2047 14.2153L2.94873 6.95939L4.12724 5.78088L10.2047 11.8583L16.2821 5.78088Z" fill="#2D2C29"></path>
+												</svg></button></div>
+									</div>
+								</div>
+								<div class="swiper principles-thumbs" id="principles-slider-thumbs">
+									<div class="swiper-wrapper"><button class="swiper-slide">Качество</button><button class="swiper-slide">Прозрачность и открытость</button><button class="swiper-slide">Справедливость</button><button class="swiper-slide">Эффективность</button><button class="swiper-slide">Добросовестность</button></div>
+								</div>
+								<div class="swiper" id="principles-slider">
+									<div class="swiper-wrapper">
+										<div class="swiper-slide principles-slide history-slide">
+											<div class="principles-slide__col">
+												<h2 class="principles-slide__title only-desktop blue-txt">Качество</h2>
+												<div class="principles-slide__txt">
+													<p>Сырье и упаковка должны соответствовать требованиям БКК Коломенский пройти 2 этапа тестирования:</p>
+													<ul>
+														<li>Лабораторные испытания</li>
+														<li>Промышленное тестирование</li>
+													</ul>
+												</div>
+											</div>
+											<div class="principles-slide__img-wrapper"><img class="principles-slide__img" src="assets/images/principles-2.jpg" alt=""></div>
+										</div>
+										<div class="swiper-slide principles-slide history-slide">
+											<div class="principles-slide__col">
+												<h2 class="principles-slide__title only-desktop blue-txt">Прозрачность и открытость</h2>
+												<div class="principles-slide__txt">
+													<p>Доступность информации о порядке отбора поставщиков для всех заинтересованных лиц по их запросу</p>
+												</div>
+											</div>
+											<div class="principles-slide__img-wrapper"><img class="principles-slide__img" src="assets/images/principles-3.jpg" alt=""></div>
+										</div>
+										<div class="swiper-slide principles-slide history-slide">
+											<div class="principles-slide__col">
+												<h2 class="principles-slide__title only-desktop blue-txt">Справедливость</h2>
+												<div class="principles-slide__txt">
+													<p>Единые стандарты сотрудничества при выборе поставщиков, все критерии отбора являются одинаковыми для всех</p>
+												</div>
+											</div>
+											<div class="principles-slide__img-wrapper"><img class="principles-slide__img" src="assets/images/principles-4.jpg" alt=""></div>
+										</div>
+										<div class="swiper-slide principles-slide history-slide">
+											<div class="principles-slide__col">
+												<h2 class="principles-slide__title only-desktop blue-txt">Эффективность</h2>
+												<div class="principles-slide__txt">
+													<p>Приоритет отдается товару с наиболее удачным соотношением качества и цены</p>
+												</div>
+											</div>
+											<div class="principles-slide__img-wrapper"><img class="principles-slide__img" src="assets/images/principles-5.jpg" alt=""></div>
+										</div>
+										<div class="swiper-slide principles-slide history-slide">
+											<div class="principles-slide__col">
+												<h2 class="principles-slide__title only-desktop blue-txt">Добросовестность</h2>
+												<div class="principles-slide__txt">
+													<p>Строгое соответствие всех предоставляемых сведений реально существующим, соблюдение антикоррупционной политика</p>
+												</div>
+											</div>
+											<div class="principles-slide__img-wrapper"><img class="principles-slide__img" src="assets/images/principles-6.jpg" alt=""></div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</section>
+						<section class="steps">
+							<h2 class="steps-title section__heading text-center">Как стать нашим поставщиком</h2>
+							<ul class="steps-list">
+								<li class="steps-list__item"><img class="steps-list__svg" src="assets/images/svg/step-new-0.svg" alt="">
+									<div class="steps-list__col">
+										<div class="steps-list__txt">Направьте&nbsp;<br class="only-desktop">предложение</div><a class="steps-list__mail" href="mailto:bkk_zakupki@mbkk.ru"><svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<rect width="30" height="30" rx="4" fill="#F5D76B"></rect>
+												<path fill-rule="evenodd" clip-rule="evenodd" d="M8.25 8.25H21.75C22.5784 8.25 23.25 8.92157 23.25 9.75V20.25C23.25 21.0784 22.5784 21.75 21.75 21.75H8.25C7.42157 21.75 6.75 21.0784 6.75 20.25V9.75C6.75 8.92157 7.42157 8.25 8.25 8.25ZM8.25 13.2136V20.25H21.75V13.2139L15 16.5889L8.25 13.2136ZM8.25 11.5365L15 14.9118L21.75 11.5368V9.75H8.25V11.5365Z" fill="#2D2C29"></path>
+											</svg><span>bkk_zakupki@mbkk.ru</span></a>
+									</div>
+								</li>
+								<li class="steps-list__item"><img class="steps-list__svg" src="assets/images/svg/step-new-1.svg" alt="">
+									<div class="steps-list__col">
+										<div class="steps-list__txt">Пришлите&nbsp;<br class="only-desktop">документы</div>
+									</div>
+								</li>
+								<li class="steps-list__item"><img class="steps-list__svg" src="assets/images/svg/step-new-2.svg" alt="">
+									<div class="steps-list__col">
+										<div class="steps-list__txt">Предоставьте образец<br>(сырья / упаковки)</div>
+									</div>
+								</li>
+								<li class="steps-list__item"><img class="steps-list__svg" src="assets/images/svg/step-new-3.svg" alt="">
+									<div class="steps-list__col">
+										<div class="steps-list__txt">Пройдите&nbsp;<br class="only-desktop">проверку</div>
+									</div>
+								</li>
+								<li class="steps-list__item"><img class="steps-list__svg" src="assets/images/svg/step-new-4.svg" alt="">
+									<div class="steps-list__col">
+										<div class="steps-list__txt">Подпишите&nbsp;<br class="only-desktop">договор</div>
+									</div>
+								</li>
+								<li class="steps-list__item"><img class="steps-list__svg" src="assets/images/svg/step-new-5.svg" alt="">
+									<div class="steps-list__col">
+										<div class="steps-list__txt">Зарегистрируйтесь<br>на торговой площадке</div>
+									</div>
+								</li>
+							</ul>
+						</section>
+						<section class="zakup">
+							<h2 class="section__heading text-center">Компания закупает в квартал</h2>
+							<div class="zakup-table">
+								<div class="zakup-table__cell">
+									<div class="zakup-table__cell-big"><span>&gt;1,1</span><sup>млрд ₽</sup></div>
+									<div class="zakup-table__cell-txt">Сырья</div>
+								</div>
+								<div class="zakup-table__cell">
+									<div class="zakup-table__cell-big"><span>&gt;690</span><sup>млн ₽</sup></div>
+									<div class="zakup-table__cell-txt">Упаковки</div>
+								</div>
+								<div class="zakup-table__cell">
+									<div class="zakup-table__cell-big"><span>&gt;340</span><sup>млн ₽</sup></div>
+									<div class="zakup-table__cell-txt">ТМЦ</div>
+								</div>
+								<div class="zakup-table__cell">
+									<div class="zakup-table__cell-big"><span>&gt;1,5</span><sup>млрд ₽</sup></div>
+									<div class="zakup-table__cell-txt">Услуги</div>
+								</div>
+							</div>
+						</section>
+						<section class="zakup-groups">
+							<h2 class="section__heading blue-txt">Основные группы&nbsp;<br class="only-desktop">закупки</h2>
+							<div class="zakup-groups__row">
+								<div class="zakup-groups__col"><img src="assets/images/zakup-group-1.jpg" alt="">
+									<div class="zakup-groups__col-txt">
+										<div class="zakup-groups__col-ttl">Сырье</div>
+										<ul>
+											<li>Мука пшеничная и ржаная</li>
+											<li>Сахар, соль и специи</li>
+											<li>Какао продукты</li>
+											<li>Растительные масла , маргарины и кондитерские жиры</li>
+											<li>Замороженные и свежие овощи, фрукты, ягоды</li>
+											<li>Злаки, солодовые продукты и крахмалы</li>
+											<li>Орехи и цукаты</li>
+											<li>Продукты из мяса и птицы</li>
+											<li>Сухая и свежая молочная продукция</li>
+											<li>Натуральные ароматизаторы и красители</li>
+										</ul>
+									</div>
+								</div>
+								<div class="zakup-groups__col"><img src="assets/images/zakup-group-2.jpg" alt="">
+									<div class="zakup-groups__col-txt">
+										<div class="zakup-groups__col-ttl">Упаковка</div>
+										<ul>
+											<li>Гибкая упаковка (cpp, bopp)</li>
+											<li>Коррексы</li>
+											<li>Бумажные пакеты</li>
+											<li>Гофрокороба</li>
+											<li>Картон</li>
+											<li>Хлебные лотки</li>
+											<li>Прочие упаковочные материалы</li>
+										</ul>
+									</div>
+								</div>
+								<div class="zakup-groups__col"><img src="assets/images/zakup-group-3.jpg" alt="">
+									<div class="zakup-groups__col-txt">
+										<div class="zakup-groups__col-ttl">ТМЦ</div>
+										<ul>
+											<li>Пекарская периферия</li>
+											<li>Расходные материалы</li>
+											<li>Запасные части к оборудованию</li>
+											<li>СИЗ, спец одежда</li>
+											<li>Дезинфектанты, моющие средства</li>
+											<li>Канцтовары и бакалея</li>
+											<li>Оргтехника</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</section>
+						<section class="providers-contacts">
+							<div class="providers-contacts__col">
+								<div class="providers-contacts__ttl">Предложения по поставке БКХ «Коломенский» просим вас направлять на адрес</div><a class="providers-contacts__link" href="mailto:bkk_zakupki@mbkk.ru"><svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<rect width="30" height="30" rx="4" fill="#F5D76B"></rect>
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M8.25 8.25H21.75C22.5784 8.25 23.25 8.92157 23.25 9.75V20.25C23.25 21.0784 22.5784 21.75 21.75 21.75H8.25C7.42157 21.75 6.75 21.0784 6.75 20.25V9.75C6.75 8.92157 7.42157 8.25 8.25 8.25ZM8.25 13.2136V20.25H21.75V13.2139L15 16.5889L8.25 13.2136ZM8.25 11.5365L15 14.9118L21.75 11.5368V9.75H8.25V11.5365Z" fill="#2D2C29"></path>
+									</svg><span class="link">bkk_zakupki@mbkk.ru</span></a>
+							</div>
+							<div class="providers-contacts__col">
+								<div class="providers-contacts__ttl">Для решения более оперативных вопросов вы можете позвонить по телефону в отдел закупок</div><a class="providers-contacts__link" href="tel:84994261905"><svg width="30" height="30" viewBox="0 0 30 30" fill="none" xmlns="http://www.w3.org/2000/svg">
+										<rect width="30" height="30" rx="4" fill="#F5D76B"></rect>
+										<path fill-rule="evenodd" clip-rule="evenodd" d="M14.2309 10.6907C14.6703 11.1779 14.531 11.7298 14.1424 12.2534C14.0503 12.3776 13.9441 12.4999 13.8159 12.6347C13.7543 12.6994 13.7063 12.7481 13.6059 12.8486L13.0308 13.424C12.9555 13.4993 13.4698 14.5271 14.4681 15.5264C15.4658 16.5251 16.4936 17.0398 16.5693 16.964L17.144 16.389C17.4604 16.0723 17.628 15.9194 17.8583 15.7683C18.3371 15.4542 18.8593 15.3689 19.2997 15.7627C20.7378 16.7913 21.5516 17.4226 21.9502 17.8368C22.7278 18.6448 22.6259 19.8885 21.9546 20.598C21.7219 20.844 21.4267 21.1393 21.0781 21.4754C18.9695 23.5852 14.5192 22.3012 11.1086 18.8873C7.69718 15.4725 6.41391 11.0218 8.51815 8.91646C8.89592 8.53275 9.02047 8.40826 9.38839 8.04574C10.0734 7.37079 11.3745 7.2651 12.1654 8.0464C12.5814 8.45737 13.2447 9.31075 14.2309 10.6907ZM18.2041 17.4496L17.6293 18.0247C16.6523 19.0023 14.9884 18.169 13.4078 16.5868C11.8261 15.0035 10.9937 13.3402 11.9711 12.363L12.5456 11.7881C12.6375 11.6961 12.6796 11.6535 12.73 11.6004C12.7988 11.5282 12.8553 11.4647 12.9006 11.4085C12.0266 10.191 11.4324 9.43023 11.1121 9.11382C10.9467 8.95042 10.5763 8.98051 10.4403 9.11449C10.0776 9.47184 9.95844 9.59098 9.58219 9.97311C8.22896 11.3271 9.2649 14.92 12.1689 17.8268C15.072 20.7328 18.6643 21.7692 20.0279 20.4051C20.371 20.0741 20.6507 19.7943 20.8659 19.5668C21.0215 19.4024 21.0493 19.0632 20.8703 18.8773C20.5723 18.5676 19.8428 17.9988 18.583 17.0941C18.4912 17.1681 18.3783 17.2752 18.2041 17.4496ZM17.0303 14.0303L21 10.0606V12.7499H22.5V7.49995H17.25V8.99995H19.9393L15.9697 12.9696L17.0303 14.0303Z" fill="#2D2C29"></path>
+									</svg><span class="link">8 499 426-19-05</span><span class="dop">доб. 3298</span></a>
+							</div>
+						</section>
+					</div>
+				</div>
+				<div class="form-modal" data-fancy-modal="ask-director">
+					<div class="form-modal__container">
+						<div class="form-modal__title">Задать вопрос генеральному директору Козлову Дмитрию Владимировичу</div>
+						<form class="form-modal__form" action="/">
+							<div class="form-item">
+								<div class="input-wrapper" data-input-parent="">
+									<div class="input-wrapper__placeholder">ФИО*</div><input class="input" data-input="" required="required" placeholder="ФИО*" />
+								</div>
+							</div>
+							<div class="form-item">
+								<div class="input-wrapper" data-input-parent="">
+									<div class="input-wrapper__placeholder">Телефон</div><input class="input" data-input="" required="required" type="phone" placeholder="Телефон" />
+								</div>
+							</div>
+							<div class="form-item">
+								<div class="input-wrapper" data-input-parent="">
+									<div class="input-wrapper__placeholder">E-mail*</div><input class="input" data-input="" required="required" type="email" placeholder="E-mail*" />
+								</div>
+							</div>
+							<div class="form-item">
+								<div class="input-wrapper" data-input-parent="">
+									<div class="input-wrapper__placeholder">Ваш вопрос</div><textarea class="textarea" data-input="" placeholder="Ваш вопрос"></textarea>
+								</div>
+							</div>
+							<div class="form-modal__inner">
+								<div class="checkbox"><label class="checkbox__label"><input class="checkbox__input" type="checkbox" required="required" />
+										<div class="checkbox__box"><svg class="checkbox__svg" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path fill-rule="evenodd" clip-rule="evenodd" d="M9.70711 14.2929L19 5L20.4142 6.41421L9.70711 17.1213L4 11.4142L5.41421 10L9.70711 14.2929Z" fill="#2D2C29"></path>
+											</svg></div>
+										<div class="checkbox__text">Даю согласие на обработку <a class="checkbox__link" href="#">персональных данных</a></div>
+									</label></div>
+								<div class="form-modal__button"><button class="button button--wide-mobile" text="Отправить">
+										<div class="button__text">Отправить</div>
+										<div class="button__icon"><svg class="button__svg right" width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path fill-rule="evenodd" clip-rule="evenodd" d="M16.2821 5.78088L17.4606 6.95939L10.2047 14.2153L2.94873 6.95939L4.12724 5.78088L10.2047 11.8583L16.2821 5.78088Z" fill="#2D2C29"></path>
+											</svg></div>
+									</button></div>
+							</div>
+						</form>
+					</div>
+					<div class="form-modal__close">
+						<div class="modal-close modal-close--light" data-fancybox-close=""><svg class="modal-close__svg" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M8.94281 7.99999L13.1854 12.2426L12.2426 13.1854L8 8.9428L3.75736 13.1854L2.81455 12.2426L7.05719 7.99999L2.81455 3.75735L3.75736 2.81454L8 7.05718L12.2426 2.81454L13.1854 3.75735L8.94281 7.99999Z" fill="#2D2C29"></path>
+							</svg></div>
+					</div>
+				</div>
+			</main>
+			<footer class="footer">
+				<div class="footer__inner cut">
+					<div class="container">
+						<div class="footer__row">
+							<div class="footer__col"><a class="footer__phone" href="tel:88002341467">8 800 234 14 67</a>
+								<div class="footer__caption">Горячая линия по вопросам качества продукции</div>
+							</div>
+							<div class="footer__col footer__col--grid">
+								<div class="footer__item">
+									<div class="footer__heading">О холдинге</div>
+									<ul class="footer__list">
+										<li class="footer__list-item"><a class="footer__link" href="#">БКХ «Коломенский»</a></li>
+										<li class="footer__list-item"><a class="footer__link" href="#">События</a></li>
+										<li class="footer__list-item"><a class="footer__link" href="#">Учредительные документы</a></li>
+										<li class="footer__list-item"><a class="footer__link" href="#">Раскрытие информации</a></li>
+										<li class="footer__list-item"><a class="footer__link" href="#">Контакты</a></li>
+									</ul>
+								</div>
+								<div class="footer__item">
+									<div class="footer__heading">Покупателю</div>
+									<ul class="footer__list">
+										<li class="footer__list-item"><a class="footer__link" href="#">Где купить</a></li>
+										<li class="footer__list-item"><a class="footer__link" href="#">Натурально и вкусно</a></li>
+									</ul>
+								</div>
+								<div class="footer__item">
+									<div class="footer__heading">Партнерам и бизнесу</div>
+									<ul class="footer__list">
+										<li class="footer__list-item"><a class="footer__link" href="#">Клиентам</a></li>
+										<li class="footer__list-item"><a class="footer__link" href="#">Поставщикам</a></li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<div class="footer__block">
+							<div class="footer__row footer__row--flex">
+								<div class="footer__col">
+									<div class="footer__wrapper"><button class="button" data-fancy-button="ask-director">
+											<div class="button__text">Задать вопрос директору</div>
+										</button></div>
+								</div>
+								<div class="footer__col">
+									<div class="footer__btn"><button class="button button--gray button--wide-mobile" text="Наверх" data-scroll-up="" block="block">
+											<div class="button__text">Наверх</div>
+											<div class="button__icon"><svg class="button__svg" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+													<path fill-rule="evenodd" clip-rule="evenodd" d="M4.21794 14.219L3.03943 13.0405L10.2953 5.78456L17.5513 13.0405L16.3728 14.219L10.2953 8.14158L4.21794 14.219Z" fill="#2D2C29"></path>
+												</svg></div>
+										</button></div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="footer__bot">
+					<div class="container">
+						<div class="footer__row">
+							<div class="footer__col">
+								<div class="footer__corp">© 2022 ЗАО БКК «Коломенский»</div>
+							</div>
+							<div class="footer__col">
+								<div class="footer__made">Сделано в <a class="footer__made-link" href="#" target="_blank">Клаудмил</a></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</footer>
+		</div>
+		<div class="modals">
+			<div class="catalog-menu" data-fancy-modal="mobile-menu">
+				<div class="catalog-menu__inner">
+					<h2 class="catalog-menu__title only-mobile">Меню</h2>
+					<ul class="catalog-menu__col">
+						<li class="catalog-menu__item grey">О холдинге</li>
+						<li class="catalog-menu__item"><a href="">БКХ «Коломенский»</a></li>
+						<li class="catalog-menu__item"><a href="">События</a></li>
+						<li class="catalog-menu__item"><a href="">Учредительные документы</a></li>
+						<li class="catalog-menu__item"><a href="">Раскрытие информации</a></li>
+						<li class="catalog-menu__item"><a href="">Контакты</a></li>
+					</ul>
+					<ul class="catalog-menu__col">
+						<li class="catalog-menu__item grey">Покупателю</li>
+						<li class="catalog-menu__item"><a href="">Где купить</a></li>
+						<li class="catalog-menu__item"><a href="">Натурально и вкусно</a></li>
+					</ul>
+					<ul class="catalog-menu__col">
+						<li class="catalog-menu__item grey">Партнерам и бизнесу</li>
+						<li class="catalog-menu__item"><a href="">Клиентам</a></li>
+						<li class="catalog-menu__item"><a href="">Поставщикам</a></li>
+					</ul>
+					<div class="catalog-menu__item"><a href="">Панорама 360</a></div>
+				</div><button class="catalog-menu__close" data-fancybox-close="data-fancybox-close"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M8.94281 7.99999L13.1854 12.2426L12.2426 13.1854L8 8.9428L3.75736 13.1854L2.81455 12.2426L7.05719 7.99999L2.81455 3.75735L3.75736 2.81454L8 7.05718L12.2426 2.81454L13.1854 3.75735L8.94281 7.99999Z" fill="#2D2C29"></path>
+					</svg></button>
+			</div>
+			<div class="search-modal" data-fancy-modal="search-modal">
+				<form class="search-modal__inner"><svg class="search-big" width="36" height="36" viewBox="0 0 36 36" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M15 27C8.37258 27 3 21.6274 3 15C3 8.37258 8.37258 3 15 3C21.6274 3 27 8.37258 27 15C27 17.7731 26.0594 20.3264 24.4798 22.3585L32.5607 30.4393L30.4393 32.5607L22.3585 24.4798C20.3264 26.0594 17.7731 27 15 27ZM24 15C24 19.9706 19.9706 24 15 24C10.0294 24 6 19.9706 6 15C6 10.0294 10.0294 6 15 6C19.9706 6 24 10.0294 24 15Z" fill="#D7D4C8"></path>
+					</svg><input class="search-modal__input" placeholder="Что вы хотите найти?" /><button class="button search-modal__button" text="Искать">
+						<div class="button__text">Искать</div>
+						<div class="button__icon"><svg class="button__svg right" width="21" height="20" viewBox="0 0 21 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+								<path fill-rule="evenodd" clip-rule="evenodd" d="M16.2821 5.78088L17.4606 6.95939L10.2047 14.2153L2.94873 6.95939L4.12724 5.78088L10.2047 11.8583L16.2821 5.78088Z" fill="#2D2C29"></path>
+							</svg></div>
+					</button><button class="search-modal__close" type="button" data-fancybox-close="data-fancybox-close"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M8.94281 7.99999L13.1854 12.2426L12.2426 13.1854L8 8.9428L3.75736 13.1854L2.81455 12.2426L7.05719 7.99999L2.81455 3.75735L3.75736 2.81454L8 7.05718L12.2426 2.81454L13.1854 3.75735L8.94281 7.99999Z" fill="#2D2C29"></path>
+						</svg></button></form>
+			</div>
+			<div class="catalog-menu" data-fancy-modal="catalog-menu">
+				<div class="catalog-menu__inner">
+					<h2 class="catalog-menu__title only-mobile">Каталог продукции</h2>
+					<ul class="catalog-menu__col">
+						<li class="catalog-menu__item"><a href="">Свежий хлеб</a></li>
+						<li class="catalog-menu__item"><a href="">Черный хлеб</a></li>
+						<li class="catalog-menu__item"><a href="">Белый хлеб</a></li>
+						<li class="catalog-menu__item"><a href="">Батоны</a></li>
+						<li class="catalog-menu__item"><a href="">Сдоба</a></li>
+					</ul>
+					<ul class="catalog-menu__col">
+						<li class="catalog-menu__item"><a href="">Кондитерские изделия</a></li>
+						<li class="catalog-menu__item"><a href="">Вафли</a></li>
+						<li class="catalog-menu__item"><a href="">Печенье</a></li>
+						<li class="catalog-menu__item"><a href="">Вафельные трубочки</a></li>
+						<li class="catalog-menu__item"><a href="">Вафельный батончик</a></li>
+						<li class="catalog-menu__item"><a href="">Зефир</a></li>
+						<li class="catalog-menu__item"><a href="">Торты</a></li>
+						<li class="catalog-menu__item"><a href="">Конфеты</a></li>
+					</ul>
+					<ul class="catalog-menu__col">
+						<li class="catalog-menu__item"><a href="">Замороженная продукция</a></li>
+						<li class="catalog-menu__item"><a href="">Вафли</a></li>
+						<li class="catalog-menu__item"><a href="">Печенье</a></li>
+						<li class="catalog-menu__item"><a href="">Вафельные трубочки</a></li>
+						<li class="catalog-menu__item"><a href="">Вафельный батончик</a></li>
+						<li class="catalog-menu__item"><a href="">Печенье</a></li>
+					</ul>
+				</div><button class="catalog-menu__close" data-fancybox-close="data-fancybox-close"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+						<path fill-rule="evenodd" clip-rule="evenodd" d="M8.94281 7.99999L13.1854 12.2426L12.2426 13.1854L8 8.9428L3.75736 13.1854L2.81455 12.2426L7.05719 7.99999L2.81455 3.75735L3.75736 2.81454L8 7.05718L12.2426 2.81454L13.1854 3.75735L8.94281 7.99999Z" fill="#2D2C29"></path>
+					</svg></button>
+			</div>
+			<div class="holding-menu" data-fancy-modal="holding-menu">
+				<ul class="holding-menu__inner">
+					<li class="holding-menu__item"><a href="">БКХ «Коломенский»</a></li>
+					<li class="holding-menu__item"><a href="">События</a></li>
+					<li class="holding-menu__item"><a href="">Учредительные документы</a></li>
+					<li class="holding-menu__item"><a href="">Раскрытие информации</a></li>
+					<li class="holding-menu__item"><a href="">Контакты</a></li>
+				</ul>
+			</div>
+			<div class="holding-menu" data-fancy-modal="clients-menu">
+				<ul class="holding-menu__inner">
+					<li class="holding-menu__item"><a href="">Где купить</a></li>
+					<li class="holding-menu__item"><a href="">Натурально и вкусно</a></li>
+				</ul>
+			</div>
+			<div class="holding-menu" data-fancy-modal="partners-menu">
+				<ul class="holding-menu__inner">
+					<li class="holding-menu__item"><a href="">Клиентам</a></li>
+					<li class="holding-menu__item"><a href="">Поставщикам</a></li>
+				</ul>
+			</div>
+		</div>
+	</body>
+
+</html>
