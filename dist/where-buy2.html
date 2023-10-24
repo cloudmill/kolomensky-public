@@ -146,25 +146,25 @@
 				<div class="form-modal" data-fancy-modal="ask-director">
 					<div class="form-modal__container">
 						<div class="form-modal__title">Задать вопрос генеральному директору Козлову Дмитрию Владимировичу</div>
-						<form class="form-modal__form" action="/">
+						<form class="form-modal__form" data-form="data-form" data-form-id="ask-dir">
 							<div class="form-item">
 								<div class="input-wrapper" data-input-parent="">
-									<div class="input-wrapper__placeholder">ФИО*</div><input class="input" data-input="" required="required" placeholder="ФИО*" />
+									<div class="input-wrapper__placeholder">ФИО*</div><input class="input" data-input="" placeholder="ФИО*" required="required" />
 								</div>
 							</div>
 							<div class="form-item">
 								<div class="input-wrapper" data-input-parent="">
-									<div class="input-wrapper__placeholder">Телефон</div><input class="input" data-input="" required="required" type="phone" placeholder="Телефон" />
+									<div class="input-wrapper__placeholder">Телефон</div><input class="input" data-input="" type="phone" placeholder="Телефон" data-mask-phone="data-mask-phone" />
 								</div>
 							</div>
 							<div class="form-item">
 								<div class="input-wrapper" data-input-parent="">
-									<div class="input-wrapper__placeholder">E-mail*</div><input class="input" data-input="" required="required" type="email" placeholder="E-mail*" />
+									<div class="input-wrapper__placeholder">E-mail*</div><input class="input" data-input="" type="email" placeholder="E-mail*" required="required" />
 								</div>
 							</div>
 							<div class="form-item">
 								<div class="input-wrapper" data-input-parent="">
-									<div class="input-wrapper__placeholder">Ваш вопрос</div><textarea class="textarea" data-input="" placeholder="Ваш вопрос"></textarea>
+									<div class="input-wrapper__placeholder">Ваш вопрос</div><textarea class="textarea" data-input="" placeholder="Ваш вопрос" required="required"></textarea>
 								</div>
 							</div>
 							<div class="form-modal__inner">
@@ -348,6 +348,15 @@
 					<li class="holding-menu__item"><a href="">Клиентам</a></li>
 					<li class="holding-menu__item"><a href="">Поставщикам</a></li>
 				</ul>
+			</div>
+			<div class="response-modal" data-response="ask-dir">
+				<div class="response-modal__container">
+					<div class="response-modal__title">Сообщение отправлено</div>
+					<p class="response-modal__text">Мы получили ваше сообщение и ответим, как только сможем.</p>
+					<div class="response-modal__btn"><button class="button" data-fancybox-close="">
+							<div class="button__text">Закрыть</div>
+						</button></div>
+				</div>
 			</div>
 		</div>
 		<script src="https://api-maps.yandex.ru/2.1/?apikey=682f216b-3af8-4745-a945-d681997988c6&amp;lang=ru_RU"></script>
