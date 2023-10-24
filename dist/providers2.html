@@ -156,9 +156,7 @@
 								</li>
 								<li class="steps-list__item"><img class="steps-list__svg" src="assets/images/svg/step-new-1.svg" alt="">
 									<div class="steps-list__col">
-										<div class="steps-list__txt">Пришлите&nbsp;<br class="only-desktop">документы</div><a class="steps-list__button" href=""><span>Список документов</span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-												<path fill-rule="evenodd" clip-rule="evenodd" d="M6.93707 5.06152L8.35129 3.64731L17.0584 12.3544L8.35129 21.0615L6.93707 19.6473L14.23 12.3544L6.93707 5.06152Z" fill="#363B40"></path>
-											</svg></a>
+										<div class="steps-list__txt">Пришлите&nbsp;<br class="only-desktop">документы</div><button class="steps-list__button" data-fancy-button="docs-list"><span>Список документов</span></button>
 									</div>
 								</li>
 								<li class="steps-list__item"><img class="steps-list__svg" src="assets/images/svg/step-new-2.svg" alt="">
@@ -168,8 +166,8 @@
 								</li>
 								<li class="steps-list__item"><img class="steps-list__svg" src="assets/images/svg/step-new-3.svg" alt="">
 									<div class="steps-list__col">
-										<div class="steps-list__txt">Пройдите&nbsp;<br class="only-desktop">проверку</div><a class="steps-list__button" href=""><span>Список документов</span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-												<path fill-rule="evenodd" clip-rule="evenodd" d="M6.93707 5.06152L8.35129 3.64731L17.0584 12.3544L8.35129 21.0615L6.93707 19.6473L14.23 12.3544L6.93707 5.06152Z" fill="#363B40"></path>
+										<div class="steps-list__txt">Пройдите&nbsp;<br class="only-desktop">проверку</div><a class="steps-list__button" href="" download><span>Список документов</span><svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path fill-rule="evenodd" clip-rule="evenodd" d="M7.50002 10.8334L7.50002 5.83335L7.50002 3.33335L12.5 3.33335L12.5 5.83335L12.5 9.16669L12.5 10.8334H13.5806L10 14.1254L6.4194 10.8334L7.50002 10.8334ZM14.1667 3.33335L14.1667 5.83335L14.1667 9.16669L18.3334 9.16669L10 16.3206L1.66669 9.16669L5.83335 9.16669L5.83335 3.33335C5.83335 2.41288 6.57955 1.66669 7.50002 1.66669L12.5 1.66669C13.4205 1.66669 14.1667 2.41288 14.1667 3.33335ZM15.8334 18.3334C16.7538 18.3334 17.5 17.5872 17.5 16.6667H2.50002C2.50002 17.5872 3.24621 18.3334 4.16669 18.3334L15.8334 18.3334Z" fill="#2D2C29"></path>
 											</svg></a>
 									</div>
 								</li>
@@ -180,7 +178,9 @@
 								</li>
 								<li class="steps-list__item"><img class="steps-list__svg" src="assets/images/svg/step-new-5.svg" alt="">
 									<div class="steps-list__col">
-										<div class="steps-list__txt">Зарегистрируйтесь<br>на торговой площадке</div>
+										<div class="steps-list__txt">Зарегистрируйтесь<br>на торговой площадке</div><a class="steps-list__button" href=""><span>Зарегистрироваться</span><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+												<path fill-rule="evenodd" clip-rule="evenodd" d="M6.93707 5.06152L8.35129 3.64731L17.0584 12.3544L8.35129 21.0615L6.93707 19.6473L14.23 12.3544L6.93707 5.06152Z" fill="#363B40"></path>
+											</svg></a>
 									</div>
 								</li>
 							</ul>
@@ -477,6 +477,28 @@
 					<li class="holding-menu__item"><a href="">Клиентам</a></li>
 					<li class="holding-menu__item"><a href="">Поставщикам</a></li>
 				</ul>
+			</div>
+			<div class="docs-modal" data-fancy-modal="docs-list">
+				<div class="docs-modal__title">Документация для утверждения<br>предконтрольного образца</div>
+				<div class="principles-slide__txt">
+					<ul>
+						<li>Спецификация на сырье от производителя</li>
+						<li>Выписка из ТУ (СТО) поставщика (для продукции выпускаемой не по ГОСТ)</li>
+						<li>Декларация соответствия и/или Сертификат соответствия</li>
+						<li>Протоколы испытаний, на основании которых принята декларация соответствия / сертификат соответствия</li>
+						<li>Протоколы на отсутствие ГМО</li>
+						<li>Подтверждение сроков годности (экспертное заключение)</li>
+						<li>Сертификаты НАССР, FSSC (при наличии)</li>
+						<li>Сведения о безопасности упаковочных материалов</li>
+						<li>Ветеринарное свидетельство. Форма № 2</li>
+						<li>Копия свидетельства о госрегистрации производственного объекта</li>
+					</ul>
+				</div>
+				<div class="form-modal__close docs-modal__close">
+					<div class="modal-close modal-close--light" data-fancybox-close=""><svg class="modal-close__svg" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+							<path fill-rule="evenodd" clip-rule="evenodd" d="M8.94281 7.99999L13.1854 12.2426L12.2426 13.1854L8 8.9428L3.75736 13.1854L2.81455 12.2426L7.05719 7.99999L2.81455 3.75735L3.75736 2.81454L8 7.05718L12.2426 2.81454L13.1854 3.75735L8.94281 7.99999Z" fill="#2D2C29"></path>
+						</svg></div>
+				</div>
 			</div>
 		</div>
 	</body>
